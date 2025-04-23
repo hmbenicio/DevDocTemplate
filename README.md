@@ -12,7 +12,7 @@ AppBaseTemplate é um repositório base para criação e padronização da docum
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
-## Development Team
+## Equipe de desenvolvimento
 
 - Nome completo do desenvolvedor 1
 - Nome completo do desenvolvedor 2
@@ -20,7 +20,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 - Nome completo do desenvolvedor 4
 - Nome completo do desenvolvedor 5
 
-## Tech Lead
+## Líder Técnico
 
 - Nome completo do líder técnico 1
 
