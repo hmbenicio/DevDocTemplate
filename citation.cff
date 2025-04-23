@@ -1,0 +1,13 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - name-suffix: Desenvolvedor
+    affiliation: Empresa de Desenvolvimento
+    family-names:
+    given-names:
+keywords:
+  -
+  -
+repository-code:
+version: 1.0.0
+date-released: 2025-04-22
