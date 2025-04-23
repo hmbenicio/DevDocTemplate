@@ -4,35 +4,11 @@ AppBaseTemplate é um repositório base para criação e padronização da docum
 
 # TÍTULO DO PROJETO
 
-`FINALIDADE`
-- Software de sistema: Gerencia os recursos do hardware e oferece suporte para outros softwares.
-Exemplos: Windows, Linux, macOS, Android.
-- Software aplicativo: Desenvolvido para executar tarefas específicas para o usuário.
-Exemplos: Microsoft Word, Excel, Photoshop, navegadores (Chrome, Firefox).
-- Software de programação: Ferramentas para desenvolvedores escreverem, testarem e manterem programas.
-Exemplos: Visual Studio, Eclipse, compiladores (GCC), editores de código (VS Code).
+`MERCADO`
 
-`LICENÇA DE USO`
-- Software proprietário: O código-fonte não é acessível ao público; exige licença paga ou restrita.
-Exemplos: Microsoft Office, Adobe Photoshop, Windows.
-- Software livre (Free Software): Usuários têm liberdade para usar, estudar, modificar e distribuir.
-Exemplos: Linux (Ubuntu, Fedora), LibreOffice, GIMP.
-- Software de código aberto (Open Source): Similar ao software livre, mas com foco na colaboração e abertura de código.
-Exemplos: Mozilla Firefox, VLC, Apache HTTP Server.
-- Software freeware: Gratuito para uso, mas sem acesso ao código-fonte.
-Exemplos: Skype, CCleaner, WinRAR (modo gratuito).
-- Software shareware: Gratuito por tempo limitado ou com funcionalidades restritas até a compra.
-Exemplos: WinZip, alguns antivírus pagos com versão trial.
+`CATEGORIAS`
 
-`TIPO DE APLICAÇÃO`
-- Software empresarial (ERP, CRM etc.)
-Exemplos: SAP, Salesforce, TOTVS.
-- Software educacional
-Exemplos: Duolingo, Moodle, Khan Academy.
-- Software de design e criação
-Exemplos: AutoCAD, Adobe Illustrator, Blender.
-- Software de entretenimento
-Exemplos: Steam, Spotify, jogos (FIFA, The Sims).
+`RECURSOS`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
