@@ -2,21 +2,19 @@
 
 AppBaseTemplate é um repositório base para criação e padronização da documentação de projetos. Ele fornece uma estrutura clara e organizada para registrar todas as etapas, decisões e detalhes técnicos de um projeto, promovendo transparência, colaboração e fácil manutenção.
 
-# Linguagens de Programação e Seus Frameworks
-
+# Linguagens, Frameworks, Bibliotecas e Áreas de Uso
 Tabela organizada com as principais linguagens de programação, seus frameworks e áreas de uso.
 
-| **Linguagem**            | **Frameworks Principais**                                     | **Área de Uso**                                        |
-|--------------------------|---------------------------------------------------------------|--------------------------------------------------------|
-| **JavaScript / TypeScript** | React, Vue, Angular, Next.js, Express, NestJS                  | Front-end, Back-end, Full-stack Web                    |
-| **Python**               | Django, Flask, FastAPI, TensorFlow, PyTorch, Pandas            | Web, APIs, Data Science, Machine Learning              |
-| **Java**                 | Spring, Spring Boot, Hibernate, Android SDK, Jetpack Compose   | Web, Sistemas Corporativos, Mobile (Android)          |
-| **C# (.NET)**            | ASP.NET Core, Entity Framework, Unity, Blazor                  | Web, Jogos, Aplicações Desktop                         |
-| **PHP**                  | Laravel, Symfony, CodeIgniter                                  | Web (especialmente back-end)                           |
-| **Ruby**                 | Ruby on Rails                                                  | Web (Desenvolvimento rápido)                           |
-| **Go (Golang)**          | Gin, Echo, Fiber                                               | Web, Microserviços, APIs de alta performance           |
-| **Kotlin**               | Ktor, Spring Boot                                              | Mobile (Android), Back-end APIs                        |
-
+| **Linguagem**       | **Frameworks**                                                                 | **Bibliotecas**                                                    | **Área de Uso**                                       |
+|---------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------|
+| **JavaScript / TS** | React, Vue, Angular, Next.js, Express, NestJS                                  | Axios, Lodash, RxJS                                                 | Front-end, Back-end, Full-stack Web                    |
+| **Python**          | Django, Flask, FastAPI                                                          | Pandas, NumPy, SciPy, TensorFlow, PyTorch, Matplotlib, Seaborn     | Web, APIs, Data Science, Machine Learning              |
+| **Java**            | Spring, Spring Boot, Hibernate, JSF, Android SDK, Jetpack Compose              | Jackson, Apache Commons, JUnit                                     | Web, Sistemas Corporativos, Mobile (Android)          |
+| **C# (.NET)**       | ASP.NET Core, Entity Framework, Unity, Blazor                                  | Newtonsoft.Json, AutoMapper, xUnit, MSTest                         | Web, Jogos, Aplicações Desktop                         |
+| **PHP**             | Laravel, Symfony, CodeIgniter                                                  | Composer, Guzzle, PHPUnit                                           | Web (especialmente back-end)                           |
+| **Ruby**            | Ruby on Rails                                                                  | Nokogiri, RSpec, Devise                                             | Web (Desenvolvimento rápido)                           |
+| **Go (Golang)**     | Gin, Echo, Fiber                                                               | Gorilla Mux, GORM, Go Kit                                           | Web, Microserviços, APIs de Alta Performance           |
+| **Kotlin**          | Ktor, Spring Boot                                                              | kotlinx.coroutines, Exposed, Koin                                  | Mobile (Android), Back-end APIs                        |
 
 # TÍTULO DO PROJETO
 
