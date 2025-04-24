@@ -2,8 +2,8 @@
 
 AppBaseTemplate é um repositório base para criação e padronização da documentação de projetos. Ele fornece uma estrutura clara e organizada para registrar todas as etapas, decisões e detalhes técnicos de um projeto, promovendo transparência, colaboração e fácil manutenção.
 
-## Linguagens, Frameworks, Bibliotecas e Áreas de Uso
-- Tabela organizada com as principais linguagens de programação, seus frameworks e áreas de uso.
+## Linguagens de Programação, Frameworks, Bibliotecas e Áreas de Uso
+- Tabela organizada com as principais linguagens de programação, seus frameworks, bibliotecas e áreas de uso.
 
 | **Linguagem**       | **Frameworks**                                                                 | **Bibliotecas**                                                    | **Área de Uso**                                       |
 |---------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------|
