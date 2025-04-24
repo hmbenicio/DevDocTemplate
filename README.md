@@ -4,7 +4,7 @@ AppBaseTemplate é um repositório base para criação e padronização da docum
 
 # Linguagens de Programação e Seus Frameworks
 
-Uma tabela organizada com as principais linguagens de programação, seus frameworks e áreas de uso.
+Tabela organizada com as principais linguagens de programação, seus frameworks e áreas de uso.
 
 | **Linguagem**            | **Frameworks Principais**                                     | **Área de Uso**                                        |
 |--------------------------|---------------------------------------------------------------|--------------------------------------------------------|
