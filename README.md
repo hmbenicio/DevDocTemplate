@@ -5,16 +5,18 @@ AppBaseTemplate é um repositório base para criação e padronização da docum
 ## <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Linguagens de Programação, Frameworks, Bibliotecas e Áreas de Uso
 - Tabela organizada com as principais linguagens de programação, seus frameworks, bibliotecas e áreas de uso.
 
-| **Linguagem**       | **Frameworks**                                                                 | **Bibliotecas**                                                    | **Área de Uso**                                       |
-|---------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------|
-| **JavaScript / TS** | React, Vue, Angular, Next.js, Express, NestJS                                  | Axios, Lodash, RxJS                                                 | Front-end, Back-end, Full-stack Web                    |
-| **Python**          | Django, Flask, FastAPI                                                          | Pandas, NumPy, SciPy, TensorFlow, PyTorch, Matplotlib, Seaborn     | Web, APIs, Data Science, Machine Learning              |
-| **Java**            | Spring, Spring Boot, Hibernate, JSF, Android SDK, Jetpack Compose              | Jackson, Apache Commons, JUnit                                     | Web, Sistemas Corporativos, Mobile (Android)          |
-| **C# (.NET)**       | ASP.NET Core, Entity Framework, Unity, Blazor                                  | Newtonsoft.Json, AutoMapper, xUnit, MSTest                         | Web, Jogos, Aplicações Desktop                         |
-| **PHP**             | Laravel, Symfony, CodeIgniter                                                  | Composer, Guzzle, PHPUnit                                           | Web (especialmente back-end)                           |
-| **Ruby**            | Ruby on Rails                                                                  | Nokogiri, RSpec, Devise                                             | Web (Desenvolvimento rápido)                           |
-| **Go (Golang)**     | Gin, Echo, Fiber                                                               | Gorilla Mux, GORM, Go Kit                                           | Web, Microserviços, APIs de Alta Performance           |
-| **Kotlin**          | Ktor, Spring Boot                                                              | kotlinx.coroutines, Exposed, Koin                                  | Mobile (Android), Back-end APIs                        |
+| **Ícone** | **Linguagem**       | **Frameworks**                                                                 | **Bibliotecas**                                                    | **Área de Uso**                                       |
+|----------|---------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------|
+| <img align="left" alt="JavaScript" title="JavaScript" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                 | **JavaScript / TS** | React, Vue, Angular, Next.js, Express, NestJS                                  | Axios, Lodash, RxJS                                                 | Front-end, Back-end, Full-stack Web                    |
+| 🐍       | **Python**          | Django, Flask, FastAPI                                                          | Pandas, NumPy, SciPy, TensorFlow, PyTorch, Matplotlib, Seaborn     | Web, APIs, Data Science, Machine Learning              |
+| ☕        | **Java**            | Spring, Spring Boot, Hibernate, JSF, Android SDK, Jetpack Compose              | Jackson, Apache Commons, JUnit                                     | Web, Sistemas Corporativos, Mobile (Android)          |
+| 💠       | **C# (.NET)**       | ASP.NET Core, Entity Framework, Unity, Blazor                                  | Newtonsoft.Json, AutoMapper, xUnit, MSTest                         | Web, Jogos, Aplicações Desktop                         |
+| 🐘       | **PHP**             | Laravel, Symfony, CodeIgniter                                                  | Composer, Guzzle, PHPUnit                                           | Web (especialmente back-end)                           |
+| 💎       | **Ruby**            | Ruby on Rails                                                                  | Nokogiri, RSpec, Devise                                             | Web (Desenvolvimento rápido)                           |
+| 🦫       | **Go (Golang)**     | Gin, Echo, Fiber                                                               | Gorilla Mux, GORM, Go Kit                                           | Web, Microserviços, APIs de Alta Performance           |
+| 🤖       | **Kotlin**          | Ktor, Spring Boot                                                              | kotlinx.coroutines, Exposed, Koin                                  | Mobile (Android), Back-end APIs                        |
+
 
 # TÍTULO DO PROJETO
 
