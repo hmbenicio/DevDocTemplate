@@ -3,6 +3,7 @@
 AppBaseTemplate é um repositório base para criação e padronização da documentação de projetos. Ele fornece uma estrutura clara e organizada para registrar todas as etapas, decisões e detalhes técnicos de um projeto, promovendo transparência, colaboração e fácil manutenção.
 
 ## <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Linguagens de Programação, Frameworks, Bibliotecas e Áreas de Uso
+
 - Tabela organizada com as principais linguagens de programação, seus frameworks, bibliotecas e áreas de uso.
 
 | **Ícone** | **Linguagem**       | **Frameworks**                                                                 | **Bibliotecas**                                                    | **Área de Uso**                                       |
@@ -15,7 +16,6 @@ AppBaseTemplate é um repositório base para criação e padronização da docum
 | <img align="left" alt="Ruby" title="Ruby" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg" /> | **Ruby** | Ruby on Rails | Nokogiri, RSpec, Devise | Web (Desenvolvimento rápido) |
 | <img align="left" alt="Go" title="Go" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" /> | **Go (Golang)** | Gin, Echo, Fiber | Gorilla Mux, GORM, Go Kit | Web, Microserviços, APIs de Alta Performance |
 | <img align="left" alt="Kotlin" title="Kotlin" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" /> | **Kotlin** | Ktor, Spring Boot | kotlinx.coroutines, Exposed, Koin | Mobile (Android), Back-end APIs |
-
 
 # TÍTULO DO PROJETO
 
