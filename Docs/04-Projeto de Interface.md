@@ -1,6 +1,6 @@
 # Projeto de Interface
 
-**Pré-requisitos**: Consulte a <a href="02-Especificação do Projeto.md"> Documentação de Especificação</a> para obter detalhes sobre os requisitos funcionais, não funcionais e as histórias de usuário que guiaram o desenvolvimento da interface.
+> **Pré-requisitos**: Consulte a <a href="02-Especificação do Projeto.md"> Documentação de Especificação</a> para obter detalhes sobre os requisitos funcionais, não funcionais e as histórias de usuário que guiaram o desenvolvimento da interface.
 
 Este documento descreve as principais interfaces da plataforma, com foco na interação do usuário, fluxos de navegação e os protótipos interativos que demonstram as funcionalidades do sistema. A elaboração das interfaces segue as diretrizes e necessidades definidas na documentação de especificação, visando atender aos requisitos e expectativas do usuário.
 
