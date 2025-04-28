@@ -32,7 +32,9 @@ Este repositório tem como base a estrutura de documentação utilizada no curso
 
 `RECURSOS`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+## Descrição do Projeto
+
+Forneça uma breve descrição do projeto em desenvolvimento, limitando-se a um ou dois parágrafos.
 
 ## Equipe de desenvolvimento
 
@@ -46,9 +48,18 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 - Nome completo do líder técnico 1
 
-## Instruções de utilização
+## Instruções de Utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Quando a primeira versão do sistema estiver disponível, esta seção deverá ser atualizada com as instruções detalhadas de uso.
+
+Inclua orientações sobre:
+
+- Instalação de dependências necessárias;
+- Configuração do ambiente, se aplicável;
+- Passos para execução da aplicação (ex: comandos no terminal);
+- Qualquer outra informação relevante para o funcionamento correto do sistema.
+
+Certifique-se de que as instruções sejam claras e possam ser seguidas por qualquer usuário, mesmo com conhecimento técnico básico.
 
 # Documentação
 
