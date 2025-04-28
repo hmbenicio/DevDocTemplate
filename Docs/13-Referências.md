@@ -10,7 +10,3 @@
 
 3. **Documentação Oficial - Framework XYZ**  
    A documentação do framework XYZ foi consultada para garantir que a aplicação esteja alinhada com as melhores práticas de implementação e aproveite ao máximo os recursos oferecidos pela tecnologia.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
