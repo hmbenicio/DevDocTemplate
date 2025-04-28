@@ -1,6 +1,15 @@
 # DevDocTemplate
 
-DevDocTemplate é um repositório base para criação e padronização da documentação de projetos. Ele fornece uma estrutura clara e organizada para registrar todas as etapas, decisões e detalhes técnicos de um projeto, promovendo transparência, colaboração e fácil manutenção.
+# DevDocTemplate
+
+**DevDocTemplate** é um repositório base para a criação e padronização da documentação de projetos.  
+Ele fornece uma estrutura clara e organizada para registrar todas as etapas, decisões e detalhes técnicos de um projeto, promovendo:
+
+- Transparência  
+- Colaboração  
+- Facilidade de manutenção
+
+Este repositório tem como base a estrutura de documentação utilizada no curso de **Análise e Desenvolvimento de Sistemas** da **PUC Minas Virtual**, com adaptações feitas para uso em ambientes de trabalho e desenvolvimento reais.
 
 ## <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Linguagens e Tecnologias
 
