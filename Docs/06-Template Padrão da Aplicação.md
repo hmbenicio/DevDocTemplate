@@ -18,6 +18,7 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 
 ## Diagrama ilustrativo (exemplo):
 
+```plaintext
 +--------------------------------------------------------+
 |                        Cabeçalho (Header)              |
 |  +-------------------+  +-------------------------+   |
