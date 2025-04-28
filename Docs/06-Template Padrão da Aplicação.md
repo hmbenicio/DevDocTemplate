@@ -16,12 +16,8 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 - **Área de conteúdo (Main):** espaço dinâmico onde o conteúdo específico da página é exibido.
 - **Rodapé (Footer):** informações institucionais ou links adicionais.
 
-Diagrama ilustrativo (exemplo):
-# Layout da Aplicação
+## Diagrama ilustrativo (exemplo):
 
-## Estrutura Padrão
-
-```plaintext
 +--------------------------------------------------------+
 |                        Cabeçalho (Header)              |
 |  +-------------------+  +-------------------------+   |
