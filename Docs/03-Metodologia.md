@@ -1,62 +1,83 @@
-# Metodologia
+# Metodologia de Trabalho
 
-<span style="color:red">Pré-requisitos: <a href="02-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+**Pré-requisitos**: Consulte a [Documentação de Especificação](02-Especificação do Projeto.md) para obter informações adicionais sobre os requisitos e contexto do projeto.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Este documento descreve a metodologia adotada pelo time para desenvolver a solução proposta. Inclui detalhes sobre os ambientes de trabalho, o controle de versão, a gestão do código fonte, as práticas ágeis de organização do time e as ferramentas utilizadas durante o ciclo de vida do desenvolvimento.
 
-## Relação de Ambientes de Trabalho
+## Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso.  
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+O projeto será desenvolvido em uma série de plataformas e ambientes distintos, cada um com um propósito específico. A tabela abaixo lista os ambientes utilizados, suas plataformas correspondentes e links de acesso:
+
+| Ambiente             | Plataforma                | Link de Acesso                               |
+|----------------------|---------------------------|---------------------------------------------|
+| **Ambiente de Dev**   | Local (VSCode, Docker)     | [Link](#)                                   |
+| **Ambiente de Testes**| GitHub Actions / Docker    | [Link](#)                                   |
+| **Ambiente de Produção** | AWS / EC2                 | [Link](#)                                   |
+
+> **Observação**: A definição dos ambientes inclui tanto a infraestrutura para a execução da aplicação quanto as plataformas específicas para o desenvolvimento de soluções móveis.
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada para este projeto é o **Git**, com hospedagem no **GitHub**. O fluxo de trabalho segue as convenções Git Flow, garantindo uma organização clara no processo de desenvolvimento.
 
-O projeto segue a seguinte convenção para o nome de branches:
+### Convenções de Branches
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- **`main`**: Branch principal contendo a versão estável do software.
+- **`unstable`**: Branch para versões testadas, porém instáveis, com funcionalidades em desenvolvimento.
+- **`testing`**: Branch utilizada para testes contínuos, com versões de features específicas em análise.
+- **`dev`**: Branch de desenvolvimento ativo, com as últimas alterações implementadas.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
+### Gestão de Issues
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+Para organizar as tarefas e os problemas, o projeto adota as seguintes etiquetas no GitHub:
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+- **`documentation`**: Refere-se a melhorias ou atualizações na documentação do projeto.
+- **`bug`**: Indica problemas ou falhas nas funcionalidades.
+- **`enhancement`**: Utilizado para identificar melhorias em funcionalidades existentes.
+- **`feature`**: Usado para a introdução de novas funcionalidades no sistema.
+
+### Fluxo de Trabalho
+
+A gerência de tags, merges, commits e branches segue as melhores práticas de versionamento, utilizando o Git Flow para facilitar o controle de versões e a integração contínua. O uso de pull requests (PRs) para integração de novas features e correções, com revisões de código periódicas, assegura a qualidade do software.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Para garantir um desenvolvimento ágil e eficiente, o time foi estruturado com base na metodologia **Scrum**. Os papéis definidos para o projeto são:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- **Scrum Master**: Felipe Domingos
+- **Product Owner**: Rommel Carneiro
+- **Equipe de Desenvolvimento**: Pedro Penna, Pedro Ivo, Rodrigo Richard
+- **Equipe de Design**: Simone Nogueira
 
-### Processo
+### Processo de Desenvolvimento
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+A equipe segue um processo ágil utilizando **Scrum** para gerenciar o fluxo de trabalho. A cada **Sprint**, são realizadas as seguintes etapas:
 
-### Ferramentas
+1. **Planejamento**: Definição das tarefas e metas da Sprint.
+2. **Execução**: Desenvolvimento das funcionalidades com acompanhamento constante.
+3. **Revisão**: Avaliação do progresso, ajustes e refinamento de processos.
+4. **Retrospectiva**: Análise do desempenho da equipe e identificação de melhorias para o próximo ciclo.
 
-As ferramentas empregadas no projeto são:
+A plataforma **GitHub** será utilizada para o acompanhamento de tarefas e gestão do fluxo de trabalho, através de quadros de projeto e issues.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+### Ferramentas Utilizadas
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+A seguir estão as ferramentas adotadas para o desenvolvimento do projeto, que foram escolhidas com base na integração com o processo de versionamento e nas necessidades específicas da equipe:
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+- **Editor de Código**: VSCode, pela sua integração com Git e suporte a várias extensões.
+- **Ferramentas de Comunicação**: 
+  - **Slack**: Para comunicação interna e organização de mensagens por canais temáticos.
+  - **GitHub**: Para gerenciamento de tarefas, controle de versão e colaboração de código.
+- **Ferramentas de Design e Wireframing**:
+  - **Figma**: Para criação de wireframes e protótipos interativos.
+  - **Lucidchart**: Para elaboração de diagramas de fluxo e arquitetura do sistema.
 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
+Essas ferramentas garantem uma colaboração eficiente entre as equipes e ajudam a manter o projeto organizado e alinhado com as práticas ágeis.
+
+> **Links Úteis**:
 > - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+> - [GitHub](https://github.com/)
+> - [Figma](https://www.figma.com/)
+> - [Lucidchart](https://www.lucidchart.com/)
