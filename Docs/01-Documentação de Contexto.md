@@ -8,11 +8,6 @@ Nesta seção, deve-se apresentar de forma clara o problema que a aplicação bu
 Descreva o contexto em que o problema ocorre, se aplicável — como o ambiente empresarial, tecnologias envolvidas ou qualquer outro fator relevante. Lembre-se de incluir apenas informações concretas e já conhecidas, pois ainda não é o momento de definir requisitos técnicos ou propor soluções.
 Caso desejado, o grupo pode utilizar metodologias como o **Design Thinking**, que oferecem uma abordagem ampla e empática para a compreensão do problema em todas as suas dimensões.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste projeto é desenvolver um software capaz de solucionar o problema descrito anteriormente, promovendo uma solução prática e eficaz.
@@ -23,9 +18,6 @@ Além disso, propõem-se os seguintes objetivos específicos, que orientarão a 
 
 Esses objetivos ajudarão a direcionar o foco da pesquisa e guiarão a implementação da solução proposta.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Este documento apresenta a fundamentação técnica para o desenvolvimento da aplicação selecionada, destacando a motivação, os objetivos específicos e os critérios que orientaram a definição do escopo do projeto.
@@ -44,7 +36,7 @@ Para aprofundar a compreensão do problema a ser solucionado, a equipe poderá u
 
 O gráfico a seguir apresenta a distribuição das respostas obtidas através de questionários, destacando as áreas mais críticas para os usuários.
 
-![Gráfico de Distribuição](caminho/para/imagem/arquivo.png)
+![Gráfico de Distribuição](Adicione a imagem)
 
 #### Tabela de Análise de Requisitos
 
@@ -54,24 +46,7 @@ O gráfico a seguir apresenta a distribuição das respostas obtidas através de
 | Desempenho de Sistema   | Média      | Entrevista        | Dependente da infraestrutura|
 | Integração com API X    | Alta       | Análise Estatística | Necessário para escalabilidade|
 
-### Referências Técnicas
-
-1. **Livro: "Design Patterns: Elements of Reusable Object-Oriented Software"**  
-   Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994).  
-   Este livro foi utilizado para embasar as escolhas de arquitetura da aplicação, especialmente no que diz respeito ao uso de padrões de design para garantir escalabilidade e flexibilidade.
-
-2. **Artigo: "Data-Driven Decision Making in Software Development"**  
-   Smith, J., & Doe, A. (2023).  
-   Este artigo fornece insights sobre como a coleta e análise de dados podem otimizar o processo de desenvolvimento de software, sendo uma das referências para o uso de métodos quantitativos no projeto.
-
-3. **Documentação Oficial - Framework XYZ**  
-   A documentação do framework XYZ foi consultada para garantir que a aplicação esteja alinhada com as melhores práticas de implementação e aproveite ao máximo os recursos oferecidos pela tecnologia.
-
 - Todas as decisões técnicas serão documentadas com base em evidências coletadas, assegurando rastreabilidade e embasamento na construção da solução proposta. A utilização de métodos quantitativos e qualitativos permitirá uma análise robusta do problema, garantindo que o software atenda às necessidades reais dos usuários e seja implementado de forma eficiente.
-
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -117,7 +92,7 @@ Os principais perfis de usuários identificados para a aplicação são:
 
 O diagrama de personas a seguir ilustra os diferentes perfis de usuários, suas necessidades e expectativas em relação à aplicação. Este diagrama ajuda a visualizar como cada perfil interage com o sistema e as funcionalidades mais relevantes para cada grupo.
 
-![Diagrama de Personas](caminho/para/imagem/diagrama-personas.png)
+![Diagrama de Personas](Adicione a imagem)
 
 ### Mapa de Stakeholders
 
@@ -134,9 +109,3 @@ O mapa de stakeholders a seguir apresenta os diferentes grupos de interesse rela
 | **Executivos**      | Aprovação e Visão Estratégica | Baixa          | Rentabilidade, crescimento do produto |
 
 - A identificação dos diferentes perfis de usuários e stakeholders é essencial para o sucesso do projeto, pois permite que as necessidades e expectativas sejam atendidas de maneira eficiente. A aplicação será projetada levando em consideração esses perfis, garantindo uma experiência personalizada e satisfatória para cada tipo de usuário.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
