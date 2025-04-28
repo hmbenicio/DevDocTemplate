@@ -61,10 +61,10 @@ A seguir, os requisitos funcionais e não funcionais detalham o escopo do projet
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-----------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA      | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA     |
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|-----------|-----------|
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA      | Nome do Dev.      | 
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA     | Nome do Dev.      |
 
 ### Requisitos Não Funcionais
 
