@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
-**Pré-requisito:** Consulte o documento  <a href="03-Projeto de Interface.md"> Projeto de Interface</a> para melhor compreensão da integração visual com a arquitetura da aplicação.
+**Pré-requisito:** Consulte o documento <a href="03-Projeto de Interface.md"> Projeto de Interface</a> para melhor compreensão da integração visual com a arquitetura da aplicação.
 
 Este documento descreve a estrutura da solução em termos de componentes principais, modelagem de dados, tecnologias envolvidas e ambiente de hospedagem.
 
