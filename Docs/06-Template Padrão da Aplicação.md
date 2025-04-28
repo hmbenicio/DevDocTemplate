@@ -1,10 +1,7 @@
 # Template Padrão da Aplicação
 
 > **Pré-requisitos:**  
-> Consulte os documentos relacionados antes de prosseguir:
-> - [Especificação do Projeto](02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
-> - [Projeto de Interface](03-Projeto%20de%20Interface.md)
-> - [Metodologia](04-Metodologia.md)
+> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="04-Metodologia.md"> Metodologia</a>
 
 Este documento descreve o layout padrão da aplicação, incluindo definições de identidade visual, estrutura de páginas, responsividade e iconografia. A padronização do layout garante consistência visual, melhora a experiência do usuário e facilita a manutenção do front-end.
 
@@ -20,5 +17,38 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 - **Rodapé (Footer):** informações institucionais ou links adicionais.
 
 Diagrama ilustrativo (exemplo):
+# Layout da Aplicação
 
-┌─────────────────────────────┐ │ Header │ ├────────────┬───────────────┤ │ Sidebar │ Main │ │ (opcional) │ Content │ ├────────────┴───────────────┤ │ Footer │ └─────────────────────────────┘
+## Estrutura Padrão
+
+```plaintext
++--------------------------------------------------------+
+|                        Cabeçalho (Header)              |
+|  +-------------------+  +-------------------------+   |
+|  | Logotipo          |  | Nome da Aplicação       |   |
+|  +-------------------+  +-------------------------+   |
+|  | Navegação Principal|                                |
++--------------------------------------------------------+
+| +----------------------------------------------------+ |
+| |                    Menu Lateral (Sidebar)         | |
+| |  +--------------------+                            | |
+| |  | Opção 1             |                            | |
+| |  | Opção 2             |                            | |
+| |  | Opção 3             |                            | |
+| |  | Opção 4             |                            | |
+| |  +--------------------+                            | |
+| +----------------------------------------------------+ |
+|                                                        |
+|                    Área de Conteúdo (Main)            |
+|  +-----------------------------------------------+     |
+|  | Conteúdo Dinâmico da Página                   |     |
+|  +-----------------------------------------------+     |
+|                                                        |
++--------------------------------------------------------+
+|                       Rodapé (Footer)                  |
+|  +-----------------------------------------------+     |
+|  | Informações Institucionais | Links Adicionais  |     |
+|  +-----------------------------------------------+     |
++--------------------------------------------------------+
+
+
