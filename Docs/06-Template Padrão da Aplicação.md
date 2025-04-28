@@ -1,12 +1,24 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="04-Metodologia.md"> Metodologia</a>
+> **Pré-requisitos:**  
+> Consulte os documentos relacionados antes de prosseguir:
+> - [Especificação do Projeto](02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
+> - [Projeto de Interface](03-Projeto%20de%20Interface.md)
+> - [Metodologia](04-Metodologia.md)
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Este documento descreve o layout padrão da aplicação, incluindo definições de identidade visual, estrutura de páginas, responsividade e iconografia. A padronização do layout garante consistência visual, melhora a experiência do usuário e facilita a manutenção do front-end.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+---
+
+## Estrutura Geral do Layout
+
+O layout padrão será aplicado de forma consistente em todas as páginas da aplicação. A estrutura típica inclui:
+
+- **Cabeçalho (Header):** com logotipo, nome da aplicação e navegação principal.
+- **Menu lateral (Sidebar):** usado em interfaces administrativas ou com navegação extensa.
+- **Área de conteúdo (Main):** espaço dinâmico onde o conteúdo específico da página é exibido.
+- **Rodapé (Footer):** informações institucionais ou links adicionais.
+
+Diagrama ilustrativo (exemplo):
+
+┌─────────────────────────────┐ │ Header │ ├────────────┬───────────────┤ │ Sidebar │ Main │ │ (opcional) │ Content │ ├────────────┴───────────────┤ │ Footer │ └─────────────────────────────┘
