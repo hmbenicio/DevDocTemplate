@@ -98,13 +98,13 @@ CREATE TABLE Compra (
 *Observação:* Use `NOT NULL`, índices e constraints adicionais conforme necessário.
 
 ---
-## Modelo NoSQL (Document-Oriented)
+## Modelo NoSQL (Banco de dados não relacional)
 
 Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional fornecido, utilizando o estilo de documentos do MongoDB.
 
 ---
 **Exemplo:**
-**Coleção: `produtos`**
+> **Coleção: `produtos`**
 
 ```json
 {
@@ -115,7 +115,7 @@ Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional f
 ```
 
 **Exemplo:**
-**Coleção: `usuarios`**
+> **Coleção: `usuarios`**
 
 ```json
 {
@@ -126,7 +126,7 @@ Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional f
 ```
 
 **Exemplo:**
-**Coleção: `compras`**
+> **Coleção: `compras`**
 
 ```json
 {
@@ -137,7 +137,8 @@ Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional f
 }
 ```
 
-**Exemplo com dados embutidos**
+**Exemplo:**
+> Com dados embutidos
 
 ```json
 {
