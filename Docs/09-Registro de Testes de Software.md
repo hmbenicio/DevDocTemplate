@@ -1,5 +1,8 @@
 # Registro de Testes de Software
 
+> **Pré-requisitos:**  
+> Consulte os documentos relacionados antes de prosseguir: <a href="04-Projeto de Interface.md"> Projeto de Interface</a>, <a href="08-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+
 <span style="color:red">**Pré-requisitos:**</span> 
 - [Projeto de Interface](03-Projeto de Interface.md)
 - [Plano de Testes de Software](08-Plano de Testes de Software.md)
