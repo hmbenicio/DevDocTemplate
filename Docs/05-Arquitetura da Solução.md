@@ -7,6 +7,40 @@ Este documento descreve a estrutura da solução, abordando os principais compon
 
 ![Arquitetura da Solução](img/02-mob-arch.png)
 
+erDiagram
+    CLIENTE {
+        int Id PK
+        string TipoCliente
+        string Plataforma
+    }
+    SERVIDOR_WEB {
+        int Id PK
+        string Tecnologia
+    }
+    BACKEND {
+        int Id PK
+        string Tecnologia
+    }
+    BANCO_DE_DADOS {
+        int Id PK
+        string Tipo
+    }
+    GATEWAY_PAGAMENTO {
+        int Id PK
+        string Provedor
+    }
+    API {
+        int Id PK
+        string Endpoint
+    }
+
+    CLIENTE ||--|| API : consome
+    API ||--|| BACKEND : comunica
+    API ||--|| GATEWAY_PAGAMENTO : conecta
+    BACKEND ||--|| BANCO_DE_DADOS : armazena
+    BACKEND ||--|| SERVIDOR_WEB : integra
+
+
 ---
 
 ## Diagrama de Classes
