@@ -1,111 +1,116 @@
 # Introdução
 
-Este documento apresenta uma visão geral do projeto, contextualizando seu desenvolvimento e destacando os principais elementos que o motivam. São abordados o contexto em que o projeto está inserido, o problema que busca resolver, seus objetivos, a justificativa para sua realização e o público-alvo a que se destina.
+Este documento apresenta uma visão geral do projeto, contextualizando seu desenvolvimento e destacando os principais elementos que o motivam. São abordados o cenário em que o projeto está inserido, o problema que se pretende resolver, os objetivos estratégicos, a justificativa para sua realização e a definição do público-alvo.
 
-## Problema
+# Problema
 
-Nesta seção, deve-se apresentar de forma clara o problema que a aplicação buscará resolver. Evite, por enquanto, mencionar a solução ou detalhes da aplicação em si.
-Descreva o contexto em que o problema ocorre, se aplicável — como o ambiente empresarial, tecnologias envolvidas ou qualquer outro fator relevante. Lembre-se de incluir apenas informações concretas e já conhecidas, pois ainda não é o momento de definir requisitos técnicos ou propor soluções.
-Caso desejado, o grupo pode utilizar metodologias como o **Design Thinking**, que oferecem uma abordagem ampla e empática para a compreensão do problema em todas as suas dimensões.
+Nesta seção, descreve-se de maneira clara e objetiva o problema que a aplicação buscará solucionar. Evite, neste momento, mencionar a solução ou aspectos técnicos da aplicação. Apresente o contexto em que o problema ocorre — como o ambiente empresarial, tecnologias envolvidas ou fatores relevantes — sempre utilizando informações concretas e já conhecidas. Ainda não é o momento para definir requisitos ou propor soluções. Opcionalmente, pode-se aplicar metodologias como o Design Thinking para apoiar a investigação e ampliar a compreensão do problema em todas as suas dimensões.
 
-## Objetivos
+# Objetivos
 
-O objetivo geral deste projeto é desenvolver um software capaz de solucionar o problema descrito anteriormente, promovendo uma solução prática e eficaz.
-Além disso, propõem-se os seguintes objetivos específicos, que orientarão a condução da investigação e o aprofundamento técnico do projeto:
+O objetivo geral do projeto é desenvolver um software que solucione o problema descrito anteriormente de forma prática e eficiente.
 
-- Investigar e aplicar tecnologias adequadas ao desenvolvimento da solução, considerando critérios como desempenho, escalabilidade e usabilidade.
-- Explorar abordagens metodológicas que favoreçam a resolução do problema, com ênfase na experimentação, análise de dados ou integração de funcionalidades específicas.
+Os seguintes objetivos específicos nortearão o projeto:
 
-Esses objetivos ajudarão a direcionar o foco da pesquisa e guiarão a implementação da solução proposta.
- 
-## Justificativa
+- Pesquisar e aplicar tecnologias adequadas, considerando critérios como desempenho, escalabilidade e usabilidade.
+- Explorar abordagens metodológicas que favoreçam a resolução do problema, priorizando experimentação, análise de dados e integração de funcionalidades específicas.
 
-Este documento apresenta a fundamentação técnica para o desenvolvimento da aplicação selecionada, destacando a motivação, os objetivos específicos e os critérios que orientaram a definição do escopo do projeto.
-A escolha da aplicação baseou-se na identificação de uma necessidade concreta ou na oportunidade de otimização de processos existentes. A definição dos objetivos técnicos foi guiada por critérios de viabilidade, impacto e alinhamento com as tecnologias adotadas.
-Para aprofundar a compreensão do problema a ser solucionado, a equipe poderá utilizar instrumentos como questionários, entrevistas e análise de dados estatísticos. Esses recursos contribuirão para a validação dos requisitos, a identificação de limitações e o refinamento das funcionalidades a serem implementadas.
+Esses objetivos garantirão o foco da pesquisa e orientarão a arquitetura e implementação da solução.
 
-### Métodos de Coleta de Dados
+# Justificativa
 
-- **Questionários**: A aplicação de questionários permitirá coletar informações quantitativas sobre as necessidades dos usuários e as áreas de melhoria.
-- **Entrevistas**: As entrevistas com stakeholders fornecerão uma compreensão qualitativa mais profunda sobre os requisitos e desafios da aplicação.
-- **Análise Estatística**: A análise de dados históricos ou de uso ajudará a identificar padrões e tendências relevantes para a solução.
+Esta seção fundamenta tecnicamente o desenvolvimento da aplicação, destacando a motivação, os objetivos específicos e os critérios que definiram o escopo do projeto. A escolha da aplicação partiu da identificação de uma necessidade concreta ou de uma oportunidade de otimização de processos existentes. A definição dos objetivos foi orientada pela viabilidade técnica, impacto potencial e alinhamento estratégico com as tecnologias selecionadas.
 
-### Exemplos de Gráficos e Tabelas
+Para aprofundar a compreensão do problema, serão utilizados instrumentos como:
 
-#### Gráfico de Distribuição de Respostas de Questionário
+## Métodos de Coleta de Dados
 
-O gráfico a seguir apresenta a distribuição das respostas obtidas através de questionários, destacando as áreas mais críticas para os usuários.
+- **Questionários**: Coleta de dados quantitativos sobre necessidades e pontos de melhoria percebidos pelos usuários.
+- **Entrevistas**: Obtenção de dados qualitativos aprofundados, visando entender expectativas e desafios sob a ótica dos stakeholders.
+- **Análise Estatística**: Estudo de dados históricos ou de uso do sistema para identificar padrões e orientar decisões.
 
-![Gráfico de Distribuição](Adicione a imagem)
+Esses métodos fornecerão evidências sólidas para validação de requisitos, identificação de restrições e refinamento das funcionalidades a serem implementadas.
 
-#### Tabela de Análise de Requisitos
+## Exemplos de Gráficos e Tabelas
 
-| Requisito              | Prioridade | Fonte de Dados    | Observações                |
-|------------------------|------------|-------------------|----------------------------|
-| Funcionalidade A        | Alta       | Questionário      | Requisito essencial        |
-| Desempenho de Sistema   | Média      | Entrevista        | Dependente da infraestrutura|
-| Integração com API X    | Alta       | Análise Estatística | Necessário para escalabilidade|
+### Gráfico de Distribuição de Respostas
 
-- Todas as decisões técnicas serão documentadas com base em evidências coletadas, assegurando rastreabilidade e embasamento na construção da solução proposta. A utilização de métodos quantitativos e qualitativos permitirá uma análise robusta do problema, garantindo que o software atenda às necessidades reais dos usuários e seja implementado de forma eficiente.
+Apresentação visual da distribuição das respostas coletadas via questionários, destacando áreas críticas para os usuários.
 
-## Público-Alvo
+![Gráfico de Distribuição](Adicionar imagem)
 
-O público-alvo da aplicação abrange uma variedade de perfis de usuários, cada um com necessidades e habilidades distintas. A análise detalhada dos perfis dos usuários é essencial para entender o contexto de uso da aplicação, suas expectativas e como ela pode ser otimizada para diferentes níveis de experiência e interação com a tecnologia.
+### Tabela de Análise de Requisitos
 
-Este documento descreve os diferentes perfis de usuários, incluindo seu conhecimento prévio sobre tecnologia, suas relações hierárquicas e seu engajamento com o sistema.
+| Requisito             | Prioridade | Fonte de Dados     | Observações                     |
+|----------------------|------------|--------------------|---------------------------------|
+| Funcionalidade A     | Alta       | Questionário       | Essencial para operação         |
+| Desempenho de Sistema| Média      | Entrevista         | Depende da infraestrutura       |
+| Integração com API X | Alta       | Análise Estatística| Fundamental para escalabilidade |
 
-### Perfis de Usuários
+Todas as decisões técnicas serão registradas com base nas evidências coletadas, garantindo rastreabilidade, transparência e alinhamento com as necessidades do usuário.
 
-Os principais perfis de usuários identificados para a aplicação são:
+# Público-Alvo
 
-1. **Usuário Iniciante**:
-   - **Descrição**: Usuários com conhecimento limitado ou nenhum conhecimento prévio de tecnologias relacionadas à aplicação.
-   - **Características**: 
-     - Baixa experiência com sistemas similares.
-     - Preferência por interfaces simples e intuitivas.
-     - Necessidade de suporte contínuo, como tutoriais e mensagens de ajuda.
-   - **Objetivo**: Realizar tarefas básicas de forma eficiente, com pouca ou nenhuma curva de aprendizado.
+A definição clara dos perfis de usuários é crucial para orientar o design e a implementação da aplicação, assegurando que ela atenda às necessidades de diferentes níveis de experiência e interação com tecnologia.
 
-2. **Usuário Intermediário**:
-   - **Descrição**: Usuários que têm alguma experiência com a tecnologia, mas não são especialistas.
-   - **Características**: 
-     - Conhecimento funcional da aplicação, mas busca maior agilidade ou funcionalidades adicionais.
-     - Capacidade de explorar funcionalidades mais avançadas, embora ainda precise de suporte ocasional.
-   - **Objetivo**: Maximizar a eficiência nas tarefas e explorar funcionalidades mais avançadas com suporte esporádico.
+## Perfis de Usuários
 
-3. **Usuário Avançado**:
-   - **Descrição**: Usuários experientes que dominam a aplicação e podem até mesmo contribuir para a configuração e personalização avançada do sistema.
-   - **Características**:
-     - Alta familiaridade com sistemas complexos.
-     - Capacidade de realizar tarefas com rapidez e eficácia.
-     - Interesse em otimizar o uso da aplicação ao máximo e personalizar funções.
-   - **Objetivo**: Utilizar todas as funcionalidades da aplicação e contribuir para melhorias contínuas do sistema.
+### Usuário Iniciante
 
-4. **Gestores e Administradores**:
-   - **Descrição**: Usuários com responsabilidades de supervisão ou administração da aplicação.
-   - **Características**: 
-     - Responsáveis pela configuração, manutenção e gestão de permissões.
-     - Necessitam de uma visão ampla do sistema para tomar decisões estratégicas.
-   - **Objetivo**: Garantir a operação eficiente da aplicação e tomar decisões baseadas em dados sobre seu uso e desempenho.
+**Descrição**: Pouca ou nenhuma familiaridade com a tecnologia.
 
-### Diagrama de Personas
+**Características**:
+- Preferência por interfaces simples.
+- Necessidade de suporte adicional (tutoriais, mensagens de ajuda).
 
-O diagrama de personas a seguir ilustra os diferentes perfis de usuários, suas necessidades e expectativas em relação à aplicação. Este diagrama ajuda a visualizar como cada perfil interage com o sistema e as funcionalidades mais relevantes para cada grupo.
+**Objetivo**: Realizar tarefas básicas com facilidade.
 
-![Diagrama de Personas](Adicione a imagem)
+### Usuário Intermediário
 
-### Mapa de Stakeholders
+**Descrição**: Alguma experiência prévia, mas não domínio completo.
 
-O mapa de stakeholders a seguir apresenta os diferentes grupos de interesse relacionados à aplicação. Cada stakeholder tem diferentes níveis de influência e interesse no sucesso da aplicação. A visualização deste mapa ajuda a identificar as partes mais relevantes para o desenvolvimento e a comunicação do projeto.
+**Características**:
+- Busca por maior eficiência e recursos avançados.
+- Necessita de suporte ocasional.
 
-#### Mapa de Stakeholders
+**Objetivo**: Agilizar processos e utilizar funcionalidades mais elaboradas.
 
-| Stakeholder         | Tipo de Interação   | Nível de Influência | Expectativas           |
-|---------------------|---------------------|---------------------|------------------------|
-| **Usuários Finais** | Interação Direta     | Alta                | Facilidade de uso, suporte |
-| **Gestores**        | Supervisão e Monitoramento | Alta           | Eficiência, relatórios detalhados |
-| **Equipe de Suporte** | Suporte Técnico    | Média               | Solução rápida de problemas, clareza nas funcionalidades |
-| **Desenvolvedores** | Desenvolvimento     | Alta                | Clareza nos requisitos, feedback contínuo |
-| **Executivos**      | Aprovação e Visão Estratégica | Baixa          | Rentabilidade, crescimento do produto |
+### Usuário Avançado
 
-- A identificação dos diferentes perfis de usuários e stakeholders é essencial para o sucesso do projeto, pois permite que as necessidades e expectativas sejam atendidas de maneira eficiente. A aplicação será projetada levando em consideração esses perfis, garantindo uma experiência personalizada e satisfatória para cada tipo de usuário.
+**Descrição**: Usuários experientes com capacidade de customização e otimização do sistema.
+
+**Características**:
+- Alta autonomia.
+- Interesse em personalização e uso intensivo das funcionalidades.
+
+**Objetivo**: Maximizar o potencial da aplicação.
+
+### Gestores e Administradores
+
+**Descrição**: Responsáveis pela gestão do sistema e análise estratégica.
+
+**Características**:
+- Configuração e manutenção do sistema.
+- Uso de dados para suporte à decisão.
+
+**Objetivo**: Assegurar eficiência operacional e apoiar decisões estratégicas.
+
+## Diagrama de Personas
+
+A seguir, apresenta-se um diagrama ilustrativo dos perfis de usuários, suas necessidades e objetivos de uso do sistema.
+
+![Diagrama de Personas](Adicionar imagem)
+
+## Mapa de Stakeholders
+
+O mapa de stakeholders detalha os diferentes grupos de interesse relacionados ao projeto, permitindo o alinhamento das entregas com suas expectativas e níveis de influência.
+
+| Stakeholder         | Tipo de Interação           | Nível de Influência | Expectativas                        |
+|---------------------|-----------------------------|----------------------|-------------------------------------|
+| Usuários Finais     | Interação Direta            | Alta                 | Usabilidade, suporte                |
+| Gestores            | Supervisão e Monitoramento  | Alta                 | Relatórios, eficiência operacional  |
+| Equipe de Suporte   | Suporte Técnico             | Média                | Diagnóstico rápido, documentação clara |
+| Desenvolvedores     | Desenvolvimento             | Alta                 | Clareza de requisitos, feedback constante |
+| Executivos          | Aprovação Estratégica       | Baixa                | Viabilidade econômica, inovação     |
+
+A identificação e a compreensão desses stakeholders são fundamentais para guiar o desenvolvimento da aplicação e garantir sua aceitação e sucesso no ambiente real.
