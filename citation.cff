@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Seu_Sobrenome"
-  given-names: "Seu_Nome"
-  orcid: "https://orcid.org/0000-0000-0000-0000"  # Se você tiver um ORCID
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Miranda"
+  given-names: "Helbert"
+  orcid: 
+- family-names: 
+  given-names:
+  orcid:
 title: "DevDocTemplate"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
