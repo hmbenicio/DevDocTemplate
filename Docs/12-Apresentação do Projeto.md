@@ -20,11 +20,6 @@ A identidade visual da apresentação deve refletir a temática do projeto. O us
 - **Cuidado na Escolha de Imagens**: Utilize imagens que complementem a mensagem que você deseja transmitir. Imagens irrelevantes ou de baixa qualidade podem prejudicar a percepção do seu projeto.
 - **Escolha de Cores**: Utilize uma paleta de cores que combine com o tema do projeto e seja agradável aos olhos. Evite exageros e busque uma harmonia visual.
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
-
 ---
 
 ## 3. Conjunto de Slides (Estrutura)
@@ -53,8 +48,3 @@ A estrutura da apresentação deve ser organizada e distribuída de forma a mant
 - Recapitulação das ideias principais e o impacto esperado da solução no contexto do problema.
 
 > **Dica Importante**: Mantenha os slides visualmente limpos e evite sobrecarregá-los com texto. Utilize bullets e palavras-chave para tornar a apresentação mais dinâmica e fácil de entender.
-
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
