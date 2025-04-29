@@ -184,5 +184,5 @@ A qualidade é baseada na norma **ISO/IEC 25010**, focando em:
 
 ---
 
-**Observação Final:**  
+> **Observação Final:**  
 Este documento deve ser mantido atualizado conforme a evolução da arquitetura e tecnologias da solução.
