@@ -2,14 +2,30 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="04-Metodologia.md"> Metodologia</a>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="05-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Descrição
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+Esta fase da implementação envolve o desenvolvimento das funcionalidades do sistema de acordo com os requisitos definidos. O código-fonte gerado deve ser bem estruturado e organizado, considerando as melhores práticas de desenvolvimento. Para cada requisito funcional, o artefato resultante (geralmente código-fonte ou documentação relacionada) deve ser detalhado e validado conforme os seguintes critérios:
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+- **Requisitos atendidos**: Relacionar os requisitos específicos que estão sendo implementados.
+- **Estruturas de dados**: Definir claramente as estruturas de dados que estão sendo utilizadas para implementar a funcionalidade.
+- **Ambiente de hospedagem**: Incluir instruções sobre como a funcionalidade deve ser acessada e validada no ambiente de produção ou homologação.
+  
+Esta implementação deve estar de acordo com as práticas ágeis, garantindo a entregabilidade contínua e revisões rápidas de código.
+
+---
+
+## Padrão de Entregáveis
+
+- **Artefatos**: Para cada requisito funcional, o artefato correspondente será criado, incluindo código-fonte, testes unitários, documentação e outros artefatos necessários.
+- **Testes**: Incluir scripts de testes para validação dos requisitos. A implementação deve ser testada tanto no nível unitário quanto no de integração.
+- **Versionamento**: Todos os artefatos devem ser versionados corretamente no repositório.
+
+---
+
+## Links Úteis
+
+- [Trabalhando com HTML5 Local Storage e JSON (DevMedia)](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
+- [JSON Tutorial (w3resource)](https://www.w3resource.com/JSON)
+- [JSON Data Set Sample (Adobe)](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
+- [Introdução ao JSON (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
+- [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
