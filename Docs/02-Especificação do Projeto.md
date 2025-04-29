@@ -145,10 +145,6 @@ Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferrame
 |                      | Contratual: Receber Feedback          | 02-Out-2017      | 06-Out-2017     |                                  |
 |                      | **MS: Enviar plano de relatório de testes** | 09-Out-2017 | 13-Out-2017     | Marco (MS)                       |
 
-
-
-![Simple Project Timeline](img/02-project-timeline.png)
-
 ## Gestão de Orçamento
 
 O orçamento do projeto deve ser gerido com base nos dados do escopo e do tempo, além dos custos envolvidos em cada etapa.
