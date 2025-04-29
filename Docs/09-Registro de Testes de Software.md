@@ -68,4 +68,4 @@ Além da correção de falhas, também foram identificadas oportunidades de melh
 
 > ### Conclusão
 
-O processo de testes é essencial para garantir a qualidade e a usabilidade da aplicação. Através da execução dos testes, conseguimos identificar pontos fortes que reforçam a confiança no sistema, assim como fragilidades que devem ser corrigidas para aprimorar a experiência do usuário. O acompanhamento contínuo e a implementação das melhorias sugeridas contribuirão para a evolução do projeto.
+> O processo de testes é essencial para garantir a qualidade e a usabilidade da aplicação. Através da execução dos testes, conseguimos identificar pontos fortes que reforçam a confiança no sistema, assim como fragilidades que devem ser corrigidas para aprimorar a experiência do usuário. O acompanhamento contínuo e a implementação das melhorias sugeridas contribuirão para a evolução do projeto.
