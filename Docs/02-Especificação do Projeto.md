@@ -150,7 +150,7 @@ Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferrame
 O orçamento do projeto deve ser gerido com base nos dados do escopo e do tempo, além dos custos envolvidos em cada etapa.
 
 |----------------------------------------|
-|ORÇAMENTO                               |
+|ORÇAMENTO             |                 |
 |----------------------------------------|
 | Recursos Necessários | Valor (R$)      |
 |----------------------|-----------------|
