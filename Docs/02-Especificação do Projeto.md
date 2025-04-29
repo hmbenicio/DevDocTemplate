@@ -128,22 +128,23 @@ Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades
 
 Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferramentas de controle de tarefas são fundamentais para garantir o bom andamento do trabalho em equipe.
 
-# Simple Project Timeline - 2017
+# Cronograma de projeto simples - 2025
 
-| Team Name       | Activity                             | Start Date   | End Date     | Notes                          |
-|----------------|---------------------------------------|--------------|--------------|--------------------------------|
-| **Marketing Team** | Set Client Expectations               | 07-Aug-2017  | 11-Aug-2017  |                                |
-|                | Formalize Approach                    | 14-Aug-2017  | 25-Aug-2017  |                                |
-|                | Set up a Work Plan                    | 21-Aug-2017  | 01-Sep-2017  |                                |
-|                | Contractual: Receive Feedback         | 04-Sep-2017  | 08-Sep-2017  |                                |
-|                | **MS: Send work plan**                | 11-Sep-2017  | 15-Sep-2017  | Milestone (MS)                 |
-| **Interface Group** | Agree on a Plan                       | 14-Aug-2017  | 18-Aug-2017  |                                |
-|                | Agree on Approach                     | 21-Aug-2017  | 25-Aug-2017  |                                |
-|                | Configure GUI                         | 28-Aug-2017  | 08-Sep-2017  |                                |
-|                | Contractual: Receive Feedback         | 11-Sep-2017  | 15-Sep-2017  |                                |
-| **QM Team**     | Testing Values #1                     | 04-Sep-2017  | 29-Sep-2017  |                                |
-|                | Contractual: Receive Feedback         | 02-Oct-2017  | 06-Oct-2017  |                                |
-|                | **MS: Send testing report plan**      | 09-Oct-2017  | 13-Oct-2017  | Milestone (MS)                 |
+| Nome da Equipe       | Atividade                             | Data de Início   | Data de Término | Observações                      |
+|----------------------|---------------------------------------|------------------|-----------------|----------------------------------|
+| **Equipe de Marketing** | Definir Expectativas do Cliente       | 07-Ago-2017      | 11-Ago-2017     |                                  |
+|                      | Formalizar Abordagem                  | 14-Ago-2017      | 25-Ago-2017     |                                  |
+|                      | Elaborar um Plano de Trabalho         | 21-Ago-2017      | 01-Set-2017     |                                  |
+|                      | Contratual: Receber Feedback          | 04-Set-2017      | 08-Set-2017     |                                  |
+|                      | **MS: Enviar plano de trabalho**      | 11-Set-2017      | 15-Set-2017     | Marco (MS)                       |
+| **Grupo de Interface** | Concordar com um Plano                | 14-Ago-2017      | 18-Ago-2017     |                                  |
+|                      | Concordar com a Abordagem             | 21-Ago-2017      | 25-Ago-2017     |                                  |
+|                      | Configurar GUI                        | 28-Ago-2017      | 08-Set-2017     |                                  |
+|                      | Contratual: Receber Feedback          | 11-Set-2017      | 15-Set-2017     |                                  |
+| **Equipe de QM**      | Testar Valores #1                     | 04-Set-2017      | 29-Set-2017     |                                  |
+|                      | Contratual: Receber Feedback          | 02-Out-2017      | 06-Out-2017     |                                  |
+|                      | **MS: Enviar plano de relatório de testes** | 09-Out-2017 | 13-Out-2017     | Marco (MS)                       |
+
 
 
 ![Simple Project Timeline](img/02-project-timeline.png)
