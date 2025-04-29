@@ -18,7 +18,7 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 
 ## Diagrama ilustrativo (exemplo):
 
-![Exemplo de Estrutura de Layout](img/EstruturaLayout.png)
+<img src="img/EstruturaLayout.png" width="300" height="200" />
 
 ```plaintext
 +--------------------------------------------------------+
