@@ -37,6 +37,17 @@ Esses métodos fornecerão evidências sólidas para validação de requisitos, 
 
 Apresentação visual da distribuição das respostas coletadas via questionários, destacando áreas críticas para os usuários.
 
+**Exemplo**
+> #### Nível de Satisfação
+> Este gráfico representa os níveis de satisfação com base em respostas coletadas:
+
+- **Muito Insatisfeito** | ███
+- **Insatisfeito**       | ████████████
+- **Neutro**             | ████████████████████
+- **Satisfeito**         | ███████████████████████████████
+- **Muito Satisfeito**   | ███████████████
+
+
 ![Gráfico de Distribuição](Adicionar imagem)
 
 ### Tabela de Análise de Requisitos
