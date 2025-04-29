@@ -98,7 +98,62 @@ CREATE TABLE Compra (
 *Observação:* Use `NOT NULL`, índices e constraints adicionais conforme necessário.
 
 ---
+# Modelo NoSQL (Document-Oriented)
 
+Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional fornecido, utilizando o estilo de documentos do MongoDB.
+
+---
+## Coleção: `produtos`
+
+```json
+{
+  "_id": ObjectId("644e8f3c9b1d2a001b3e5a7f"),
+  "nome": "João da Silva",
+  "email": "joao@email.com"
+}
+```
+
+## Coleção: `usuarios`
+
+```json
+{
+  "_id": ObjectId("644e8f6d9b1d2a001b3e5a81"),
+  "nome": "Teclado Mecânico",
+  "preco": 250.00
+}
+```
+
+## Coleção: `compras`
+
+```json
+{
+  "_id": ObjectId("644e8f819b1d2a001b3e5a83"),
+  "usuario_id": ObjectId("644e8f3c9b1d2a001b3e5a7f"),
+  "produto_id": ObjectId("644e8f6d9b1d2a001b3e5a81"),
+  "data_compra": "2024-03-15"
+}
+```
+
+## Exemplo com dados embutidos
+
+```json
+{
+  "_id": ObjectId("644e8f819b1d2a001b3e5a83"),
+  "usuario": {
+    "_id": ObjectId("644e8f3c9b1d2a001b3e5a7f"),
+    "nome": "João da Silva",
+    "email": "joao@email.com"
+  },
+  "produto": {
+    "_id": ObjectId("644e8f6d9b1d2a001b3e5a81"),
+    "nome": "Teclado Mecânico",
+    "preco": 250.00
+  },
+  "data_compra": "2024-03-15"
+}
+```
+
+---
 ## Modelo Físico
 
 O modelo físico será entregue em um arquivo `banco.sql` contendo:
