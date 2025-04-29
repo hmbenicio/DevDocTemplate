@@ -1,13 +1,14 @@
-message: Please cite this software using these metadata.
-title:
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
 authors:
-  - name-suffix: Desenvolvedor
-    affiliation: Empresa de Desenvolvimento
-    family-names:
-    given-names:
-keywords:
-  -
-  -
-repository-code:
+- family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "DevDocTemplate"
 version: 1.0.0
-date-released: 2025-04-22
+doi: 10.5281/zenodo.1234
+date-released: 2025-04-28
+url: "https://github.com/hmbenicio/DevDocTemplate"
