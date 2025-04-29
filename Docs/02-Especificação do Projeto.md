@@ -41,13 +41,22 @@ Apresente o nome do processo e as oportunidades de melhoria identificadas. Em se
 
 ```mermaid
 flowchart LR
-    User[Usuário] --> Frontend
-    Frontend -->|HTTP Request| Backend
-    Backend -->|Query| BancoDeDados
-    BancoDeDados -->|Response| Backend
-    Backend -->|HTTP Response| Frontend
-    Frontend --> User
+    Inicio(( )) --> Cotacao[Manejo de Cotação]
+    Cotacao --> Aprovar[Aprovar Pedido]
+    Aprovar -->|Aprovado| Decisao{Aprovado?}
+    Decisao -->|Não| Fim1((( )))
+    Decisao -->|Sim| ParaleloInicio[Início Paralelo]
+    ParaleloInicio --> Pedido[Manejo de Pedido]
+    ParaleloInicio --> Envio[Manejo de Envio]
+    Pedido --> ParaleloFim[Fim Paralelo]
+    Envio --> ParaleloFim
+    ParaleloFim --> Revisar[Revisar Pedido]
+    Revisar --> Fim2((( )))
 ```
+
+### Processo 2 – NOME DO PROCESSO
+
+Da mesma forma, apresente o nome e as oportunidades de melhoria para o processo 2. Inclua também o modelo BPMN do processo.
 
 ```mermaid
 flowchart LR
@@ -63,12 +72,6 @@ flowchart LR
     ParaleloFim --> Revisar[Revisar Pedido]
     Revisar --> Fim2((( )))
 ```
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Da mesma forma, apresente o nome e as oportunidades de melhoria para o processo 2. Inclua também o modelo BPMN do processo.
 
 ![Processo 2](img/02-bpmn-proc2.png)
 
