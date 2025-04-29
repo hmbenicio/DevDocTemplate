@@ -172,18 +172,18 @@ Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferrame
 
 | Nome da Equipe       | Atividade                             | Data de Início   | Data de Término | Observações                      |
 |----------------------|---------------------------------------|------------------|-----------------|----------------------------------|
-| **Equipe de Marketing** | Definir Expectativas do Cliente       | 07-Ago-2017      | 11-Ago-2017     |                                  |
-|                      | Formalizar Abordagem                  | 14-Ago-2017      | 25-Ago-2017     |                                  |
-|                      | Elaborar um Plano de Trabalho         | 21-Ago-2017      | 01-Set-2017     |                                  |
-|                      | Contratual: Receber Feedback          | 04-Set-2017      | 08-Set-2017     |                                  |
-|                      | **MS: Enviar plano de trabalho**      | 11-Set-2017      | 15-Set-2017     | Marco (MS)                       |
-| **Grupo de Interface** | Concordar com um Plano                | 14-Ago-2017      | 18-Ago-2017     |                                  |
-|                      | Concordar com a Abordagem             | 21-Ago-2017      | 25-Ago-2017     |                                  |
-|                      | Configurar GUI                        | 28-Ago-2017      | 08-Set-2017     |                                  |
-|                      | Contratual: Receber Feedback          | 11-Set-2017      | 15-Set-2017     |                                  |
-| **Equipe de QM**      | Testar Valores #1                     | 04-Set-2017      | 29-Set-2017     |                                  |
-|                      | Contratual: Receber Feedback          | 02-Out-2017      | 06-Out-2017     |                                  |
-|                      | **MS: Enviar plano de relatório de testes** | 09-Out-2017 | 13-Out-2017     | Marco (MS)                       |
+| **Equipe de Marketing** | Definir Expectativas do Cliente       | 07-Ago-2025      | 11-Ago-2025     |                                  |
+|                      | Formalizar Abordagem                  | 14-Ago-2025      | 25-Ago-2025     |                                  |
+|                      | Elaborar um Plano de Trabalho         | 21-Ago-2025      | 01-Set-2025     |                                  |
+|                      | Contratual: Receber Feedback          | 04-Set-2025      | 08-Set-2025     |                                  |
+|                      | **MS: Enviar plano de trabalho**      | 11-Set-2025      | 15-Set-2025     | Marco (MS)                       |
+| **Grupo de Interface** | Concordar com um Plano                | 14-Ago-2025      | 18-Ago-2025     |                                  |
+|                      | Concordar com a Abordagem             | 21-Ago-2025      | 25-Ago-2025     |                                  |
+|                      | Configurar GUI                        | 28-Ago-2025      | 08-Set-2025     |                                  |
+|                      | Contratual: Receber Feedback          | 11-Set-2025      | 15-Set-2025     |                                  |
+| **Equipe de QM**      | Testar Valores #1                     | 04-Set-2025      | 29-Set-2025     |                                  |
+|                      | Contratual: Receber Feedback          | 02-Out-2025      | 06-Out-2025     |                                  |
+|                      | **MS: Enviar plano de relatório de testes** | 09-Out-2025 | 13-Out-2025     | Marco (MS)                       |
 
 ## Gestão de Orçamento
 
