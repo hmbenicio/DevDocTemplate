@@ -20,5 +20,3 @@ Esta implementação deve estar de acordo com as práticas ágeis, garantindo a 
 - **Artefatos**: Para cada requisito funcional, o artefato correspondente será criado, incluindo código-fonte, testes unitários, documentação e outros artefatos necessários.
 - **Testes**: Incluir scripts de testes para validação dos requisitos. A implementação deve ser testada tanto no nível unitário quanto no de integração.
 - **Versionamento**: Todos os artefatos devem ser versionados corretamente no repositório.
-
----
