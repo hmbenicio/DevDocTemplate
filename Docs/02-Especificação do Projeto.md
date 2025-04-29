@@ -61,7 +61,7 @@ Da mesma forma, apresente o nome e as oportunidades de melhoria para o processo 
 ```mermaid
 flowchart LR
     Inicio(( )) --> Cotacao[Manejo de Cotação]
-    Cotacao --> Aprovar[Aprovar Pedido]
+    Cotacao --> Aprovar[[Subprocesso: Aprovar Pedido]]
     Aprovar -->|Aprovado| Decisao{Aprovado?}
     Decisao -->|Não| Fim1((( )))
     Decisao -->|Sim| ParaleloInicio[Início Paralelo]
@@ -72,8 +72,6 @@ flowchart LR
     ParaleloFim --> Revisar[Revisar Pedido]
     Revisar --> Fim2((( )))
 ```
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
