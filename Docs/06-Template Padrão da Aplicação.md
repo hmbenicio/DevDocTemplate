@@ -1,7 +1,7 @@
 # Template Padrão da Aplicação
 
 > **Pré-requisitos:**  
-> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>, <a href="04-Projeto de Interface.md"> Projeto de Interface</a>, <a href="03-Metodologia.md"> Metodologia</a>
+> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>, <a href="04-Projeto de Interface.md"> Projeto de Interface</a>, <a href="03-Metodologia.md"> Metodologia.</a>
 
 Este documento descreve o layout padrão da aplicação, incluindo definições de identidade visual, estrutura de páginas, responsividade e iconografia. A padronização do layout garante consistência visual, melhora a experiência do usuário e facilita a manutenção do front-end.
 
