@@ -39,16 +39,7 @@ Apresente sua proposta de solução, destacando os limites e as conexões com as
 
 Apresente o nome do processo e as oportunidades de melhoria identificadas. Em seguida, insira o modelo do processo, utilizando o padrão BPMN.
 
-# 📦 Processo de Gerenciamento de Pedidos
-
-Este repositório documenta o fluxo de processo para o gerenciamento de pedidos, desde a cotação inicial até a revisão final do pedido.
-
-## 📋 Visão Geral do Processo
-
-O fluxo abaixo ilustra as principais etapas do processo:
-
 ```mermaid
-flowchart LR
     Inicio(( )) --> Cotacao[Manejo de Cotação]
     Cotacao --> Aprovar[Aprovar Pedido]
     Aprovar -->|Aprovado| Decisao{Aprovado?}
@@ -61,7 +52,6 @@ flowchart LR
     Juncao1 --> Revisar[Revisar Pedido]
     Revisar --> Fim2((( )))
 ```
----
 
 ![Processo 1](img/02-bpmn-proc1.png)
 
