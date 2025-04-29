@@ -158,7 +158,3 @@ O orçamento do projeto deve ser gerido com base nos dados do escopo e do tempo,
 | Software             | 24.000,00       |
 | Serviços             | 5.000,00        |
 | **TOTAL**            | **256.400,00**  |
-
-
-
-![Orçamento](img/02-orcamento.png)
