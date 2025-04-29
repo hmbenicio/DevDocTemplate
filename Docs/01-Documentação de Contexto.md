@@ -123,4 +123,40 @@ O mapa de stakeholders detalha os diferentes grupos de interesse relacionados ao
 | Desenvolvedores     | Desenvolvimento             | Alta                 | Clareza de requisitos, feedback constante |
 | Executivos          | Aprovação Estratégica       | Baixa                | Viabilidade econômica, inovação     |
 
+```mermaid
+flowchart TB
+    Titulo(["Mapa de Stakeholders"])
+    Titulo --> Intro["O mapa de stakeholders detalha os diferentes grupos de interesse relacionados ao projeto, permitindo o alinhamento das entregas com suas expectativas e níveis de influência."]
+    
+    Intro --> Usuarios["Usuários Finais"]
+    Intro --> Gestores["Gestores"]
+    Intro --> Suporte["Equipe de Suporte"]
+    Intro --> Devs["Desenvolvedores"]
+    Intro --> Executivos["Executivos"]
+    
+    Usuarios -->|Tipo de Interação: Interação Direta| U1["Nível de Influência: Alta"]
+    U1 -->|Expectativas| U2["Usabilidade, suporte"]
+    
+    Gestores -->|Tipo de Interação: Supervisão e Monitoramento| G1["Nível de Influência: Alta"]
+    G1 -->|Expectativas| G2["Relatórios, eficiência operacional"]
+    
+    Suporte -->|Tipo de Interação: Suporte Técnico| S1["Nível de Influência: Média"]
+    S1 -->|Expectativas| S2["Diagnóstico rápido, documentação clara"]
+    
+    Devs -->|Tipo de Interação: Desenvolvimento| D1["Nível de Influência: Alta"]
+    D1 -->|Expectativas| D2["Clareza de requisitos, feedback constante"]
+    
+    Executivos -->|Tipo de Interação: Aprovação Estratégica| E1["Nível de Influência: Baixa"]
+    E1 -->|Expectativas| E2["Viabilidade econômica, inovação"]
+    
+    Fim(["A identificação e a compreensão desses stakeholders são fundamentais para guiar o desenvolvimento da aplicação e garantir sua aceitação e sucesso no ambiente real."])
+    
+    U2 --> Fim
+    G2 --> Fim
+    S2 --> Fim
+    D2 --> Fim
+    E2 --> Fim
+
+```
+
 A identificação e a compreensão desses stakeholders são fundamentais para guiar o desenvolvimento da aplicação e garantir sua aceitação e sucesso no ambiente real.
