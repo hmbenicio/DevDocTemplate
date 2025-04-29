@@ -63,14 +63,17 @@ Os cenários de teste são tarefas que os usuários devem realizar durante o tes
 A coleta de dados é essencial para entender a experiência do usuário e identificar áreas para melhorias. A coleta pode incluir tanto métricas quantitativas quanto qualitativas.
 
 ### Tipos de Dados a Serem Coletados:
+
 - **Métricas Quantitativas**:
     - Quantidade de cliques necessários para concluir uma tarefa.
     - Número de erros cometidos durante o processo.
     - Tempo total gasto para completar a tarefa.
+ 
 - **Métricas Qualitativas**:
     - Comentários sobre a interface e a facilidade de uso.
     - Dificuldades encontradas durante a execução das tarefas.
     - Sugestões para melhoria da interface.
+ 
 - **Questionários Pós-Teste**:
     - A interface foi fácil de entender?
     - Você encontrou dificuldades em alguma etapa? Se sim, qual?
@@ -78,6 +81,7 @@ A coleta de dados é essencial para entender a experiência do usuário e identi
 
 ### Considerações Importantes:
 - **Privacidade**: Em conformidade com a LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível que possa identificar o participante será coletado ou apresentado publicamente.
+
 - **Observação Direta**: Além de coletar dados quantitativos e qualitativos, o comportamento dos participantes será observado diretamente durante a execução das tarefas.
 
 ---
