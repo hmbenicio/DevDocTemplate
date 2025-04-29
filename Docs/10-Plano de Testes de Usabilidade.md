@@ -1,71 +1,95 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Os testes de usabilidade são fundamentais para avaliar a qualidade da interface de usuário de uma aplicação interativa, garantindo que os usuários possam navegar e interagir de forma intuitiva e eficiente. Este plano tem como objetivo definir como os testes de usabilidade serão conduzidos e quais métricas serão utilizadas para medir a eficácia da interface.
 
-Um plano de teste de usabilidade deverá conter: 
+## 1. Definição do(s) objetivo(s)
 
-## Definição do(s) objetivo(s)
+Antes de iniciar os testes de usabilidade, é essencial estabelecer claramente os objetivos que se deseja atingir. A definição dos objetivos guiará as métricas a serem coletadas e os aspectos a serem avaliados.
 
-Antes de iniciar os testes, é essencial definir o que se deseja avaliar na usabilidade do sistema. 
-Alguns exemplos de objetivos são:
-- Verificar se os usuários conseguem concluir tarefas essenciais sem dificuldades.
-- Identificar barreiras na navegação e interação com o sistema.
-- Avaliar a eficiência e a satisfação do usuário ao utilizar a interface.
-- Testar a acessibilidade para diferentes perfis de usuários.
+### Exemplos de Objetivos:
+- **Verificar se os usuários conseguem concluir tarefas essenciais sem dificuldades**: Avaliar se os usuários conseguem realizar tarefas básicas da aplicação, como se cadastrar ou fazer login, sem obstáculos.
+- **Identificar barreiras na navegação e interação com o sistema**: Identificar pontos onde os usuários têm dificuldades, como menus confusos ou processos de navegação complexos.
+- **Avaliar a eficiência e a satisfação do usuário ao utilizar a interface**: Medir o tempo necessário para completar tarefas e coletar feedback sobre a satisfação geral com o design da interface.
+- **Testar a acessibilidade para diferentes perfis de usuários**: Avaliar como a interface se comporta para usuários com diferentes habilidades, incluindo aqueles com necessidades especiais (deficiência visual, por exemplo).
 
-## Seleção dos participantes
+---
 
-Para garantir que o teste reflita o uso real do sistema, escolha participantes representativos do público-alvo.
+## 2. Seleção dos Participantes
 
-**Critérios para selecionar participantes:**
-- Perfis variados (experientes e iniciantes no sistema).
-- Diferentes níveis de familiaridade com tecnologia.
-- Pessoas com necessidades especiais (se aplicável).
+A seleção dos participantes deve refletir o perfil real dos usuários da aplicação. Para isso, escolha participantes com diferentes níveis de familiaridade com o sistema e com a tecnologia em geral.
 
-**Quantidade recomendada:**
-Mínimo: 5 participantes.
-Ideal: Entre 8 e 12 para maior diversidade.
+### Critérios para Seleção de Participantes:
+- **Diversidade de perfis**: Inclua participantes experientes e iniciantes no sistema, bem como usuários com diferentes níveis de experiência tecnológica.
+- **Acessibilidade**: Considere incluir participantes com necessidades especiais, se aplicável (por exemplo, usuários com deficiência visual ou auditiva).
+- **Idade e demografia**: Certifique-se de que os participantes representam a diversidade do público-alvo da aplicação.
 
-## Definição de cenários de teste
+### Quantidade recomendada de participantes:
+- **Mínimo**: 5 participantes
+- **Ideal**: Entre 8 e 12 participantes, para garantir maior diversidade de resultados.
 
-Os cenários representam tarefas reais que os usuários executam no sistema. Neste projeto, cada grupo deverá definir, no mínimo, **CINCO cenários para a aplicação** e cada cenário deve incluir:
+---
 
-- Objetivo: O que será avaliado.
-- Contexto: A situação que leva o usuário a interagir com o sistema.
-- Tarefa: A ação que o usuário deve realizar.
-- Critério de sucesso: Como determinar se a tarefa foi concluída corretamente.
+## 3. Definição de Cenários de Teste
 
-**Exemplo: Cenário 1**
+Os cenários de teste são tarefas que os usuários devem realizar durante o teste, refletindo interações reais com o sistema. Cada cenário deve ser projetado para avaliar aspectos específicos da interface e da experiência do usuário.
 
-**Objetivo:** Avaliar a facilidade e eficiência do usuário em pesquisar, adicionar um produto ao carrinho e finalizar a compra sem dificuldades.
+### Exemplo de Cenário de Teste:
 
-**Contexto:** O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.
+#### **Cenário 1**: Pesquisa, adição ao carrinho e finalização da compra
 
-**Tarefa(s):** 
-- Acessar o site e localizar a barra de pesquisa.
-- Pesquisar por "notebook" e utilizar os filtros para refinar a busca (exemplo: marca, preço, processador).
-- Escolher um dos notebooks listados e acessar a página do produto.
-- Adicionar o produto ao carrinho.
-- Finalizar a compra, preenchendo os dados de pagamento e endereço de entrega.
-- Confirmar a transação e verificar a tela de pedido concluído.
+- **Objetivo**: Avaliar a facilidade e eficiência do usuário em pesquisar, adicionar um produto ao carrinho e finalizar a compra sem dificuldades.
+- **Contexto**: O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.
+- **Tarefa(s)**: 
+    1. Acessar o site e localizar a barra de pesquisa.
+    2. Pesquisar por "notebook" e usar os filtros (ex.: marca, preço, processador).
+    3. Escolher um notebook e acessar a página do produto.
+    4. Adicionar o produto ao carrinho.
+    5. Finalizar a compra, preenchendo os dados de pagamento e entrega.
+    6. Confirmar a transação e verificar a tela de pedido concluído.
+- **Critério(s) de Sucesso**:
+    - O usuário consegue encontrar e filtrar os produtos sem dificuldades.
+    - O produto é adicionado ao carrinho corretamente.
+    - O usuário preenche os dados de pagamento e entrega sem erros.
+    - A compra é finalizada com sucesso e o usuário visualiza a confirmação do pedido.
+    - Todo o processo é concluído em menos de 5 minutos, sem necessidade de assistência.
 
-**Critério(s) de Sucesso(s):**
-- O usuário consegue encontrar e filtrar os produtos sem dificuldades.
-- O produto é adicionado ao carrinho corretamente.
-- O usuário consegue preencher as informações de pagamento e entrega sem erros.
-- A compra é finalizada com sucesso, e o usuário visualiza a confirmação do pedido.
-- Todo o processo ocorre em menos de 5 minutos, sem necessidade de assistência.
+---
 
-## Métodos de coleta de dados
+## 4. Métodos de Coleta de Dados
 
-Os dados coletados devem ajudar a entender a experiência dos usuários e os dados podem ser coletados por observação direta incluindo métricas quantitativas (quantidade de cliques, número de erros, tempo gasto para cada tarefa etc.), métricas qualitativas (dificuldades, comentários etc.) e questionários pós-teste (A interface foi fácil de entender? Você encontrou dificuldades em alguma etapa? O que poderia ser melhorado?)
+A coleta de dados é essencial para entender a experiência do usuário e identificar áreas para melhorias. A coleta pode incluir tanto métricas quantitativas quanto qualitativas.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+### Tipos de Dados a Serem Coletados:
+- **Métricas Quantitativas**:
+    - Quantidade de cliques necessários para concluir uma tarefa.
+    - Número de erros cometidos durante o processo.
+    - Tempo total gasto para completar a tarefa.
+- **Métricas Qualitativas**:
+    - Comentários sobre a interface e a facilidade de uso.
+    - Dificuldades encontradas durante a execução das tarefas.
+    - Sugestões para melhoria da interface.
+- **Questionários Pós-Teste**:
+    - A interface foi fácil de entender?
+    - Você encontrou dificuldades em alguma etapa? Se sim, qual?
+    - O que poderia ser melhorado na interface?
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+### Considerações Importantes:
+- **Privacidade**: Em conformidade com a LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível que possa identificar o participante será coletado ou apresentado publicamente.
+- **Observação Direta**: Além de coletar dados quantitativos e qualitativos, o comportamento dos participantes será observado diretamente durante a execução das tarefas.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+---
+
+## 5. Links Úteis
+
+Aqui estão alguns recursos que podem ajudar na construção e execução do Plano de Testes de Usabilidade:
+
+- [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo](https://neilpatel.com/br/blog/teste-de-usabilidade/)
+- [Teste de Usabilidade: Tudo o que você precisa saber! | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
+- [Planejando Testes de Usabilidade: O Que (e o que Não) Fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
+- [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+---
+
+### Conclusão
+
+O Plano de Testes de Usabilidade é um documento essencial para garantir que a aplicação seja intuitiva, eficiente e acessível para os usuários. Definir objetivos claros, selecionar participantes representativos e realizar testes com cenários realistas são passos fundamentais para coletar dados valiosos, que ajudarão a melhorar a experiência do usuário e otimizar a interface da aplicação.
