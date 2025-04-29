@@ -1,8 +1,9 @@
+
 # Arquitetura da Solução
 
-> **Pré-requisito:** Consulte o documento <a href="04-Projeto de Interface.md"> Projeto de Interface </a> para melhor compreensão da integração visual com a arquitetura da aplicação.
+> **Pré-requisito:** Consulte o documento [Projeto de Interface](04-Projeto%20de%20Interface.md) para compreender a integração visual com a arquitetura da aplicação.
 
-Este documento descreve a estrutura da solução em termos de componentes principais, modelagem de dados, tecnologias envolvidas e ambiente de hospedagem.
+Este documento descreve a estrutura da solução, abordando os principais componentes, modelagem de dados, tecnologias envolvidas e ambiente de hospedagem.
 
 ![Arquitetura da Solução](img/02-mob-arch.png)
 
@@ -10,44 +11,178 @@ Este documento descreve a estrutura da solução em termos de componentes princi
 
 ## Diagrama de Classes
 
-O diagrama de classes define a estrutura estática do sistema, especificando as classes que compõem a aplicação, seus atributos, métodos e os relacionamentos entre elas. Ele serve como base para a implementação orientada a objetos e para a definição de responsabilidades de cada componente no sistema.
+O **diagrama de classes** define a estrutura estática do sistema, especificando classes, atributos, métodos e relacionamentos.
+
+**Exemplo:**
+```mermaid
+classDiagram
+    class Usuario {
+        +int Id
+        +string Nome
+        +string Email
+        +bool Ativo
+        +Login()
+        +Logout()
+    }
+
+    class Produto {
+        +int Id
+        +string Nome
+        +decimal Preco
+    }
+
+    Usuario "1" --> "*" Produto : "compra"
+```
+*Legenda:* Um usuário pode comprar vários produtos.
 
 ---
 
 ## Modelo Entidade-Relacionamento (ER)
 
-O modelo ER descreve conceitualmente os dados manipulados pela aplicação, representando as entidades do domínio e seus relacionamentos. Ele é essencial para garantir a integridade lógica da base de dados e para facilitar a comunicação entre desenvolvedores e analistas.
+O **Modelo ER** descreve as entidades e seus relacionamentos, sendo essencial para o projeto do banco de dados.
+
+**Exemplo:**
+```mermaid
+erDiagram
+    USUARIO {
+        int Id PK
+        string Nome
+        string Email
+    }
+    PRODUTO {
+        int Id PK
+        string Nome
+        decimal Preco
+    }
+    COMPRA {
+        int Id PK
+        int UsuarioId FK
+        int ProdutoId FK
+        date DataCompra
+    }
+    
+    USUARIO ||--o{ COMPRA : realiza
+    PRODUTO ||--o{ COMPRA : pertence
+```
+*Legenda:* Um usuário pode realizar várias compras; uma compra está associada a um produto.
 
 ---
 
 ## Esquema Relacional
 
-Tradução do Modelo ER para o modelo lógico, o esquema relacional organiza os dados em tabelas e define as chaves primárias, estrangeiras e restrições de integridade. Esse artefato é crucial para a implementação do banco de dados relacional.
+O **esquema relacional** traduz o modelo ER para o banco de dados relacional.
+
+**Exemplo:**
+```sql
+CREATE TABLE Usuario (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Email VARCHAR(100)
+);
+
+CREATE TABLE Produto (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Preco DECIMAL(10,2)
+);
+
+CREATE TABLE Compra (
+    Id INT PRIMARY KEY,
+    UsuarioId INT,
+    ProdutoId INT,
+    DataCompra DATE,
+    FOREIGN KEY (UsuarioId) REFERENCES Usuario(Id),
+    FOREIGN KEY (ProdutoId) REFERENCES Produto(Id)
+);
+```
+*Observação:* Use `NOT NULL`, índices e constraints adicionais conforme necessário.
 
 ---
 
 ## Modelo Físico
 
-Deve ser entregue um arquivo `banco.sql` contendo os scripts SQL necessários para a criação das estruturas do banco de dados. Este arquivo deve ser incluído na pasta `src/bd`.
+O modelo físico será entregue em um arquivo `banco.sql` contendo:
+
+- Criação de tabelas
+- Índices
+- Constraints de integridade
+- Inserts iniciais (opcional)
+
+**Exemplo de organização de arquivos:**
+```
+src/
+└── bd/
+    └── banco.sql
+```
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-Liste aqui todas as tecnologias adotadas na implementação da solução, como linguagens de programação, frameworks, bibliotecas, IDEs, serviços web, entre outros.
+Liste aqui todas as tecnologias adotadas:
 
-Adicionalmente, inclua um diagrama ou fluxograma que ilustre o fluxo de interação do usuário com o sistema e como os componentes tecnológicos estão integrados, desde a entrada até o retorno da resposta.
+| Categoria         | Tecnologia                              |
+|-------------------|-----------------------------------------|
+| Linguagem         | C# (.NET Core), JavaScript (Next.js)    |
+| Banco de Dados    | MongoDB                                 |
+| Frontend          | Next.js                                 |
+| Backend           | ASP.NET Core Web API                    |
+| Hospedagem        | Vercel (Frontend) e Azure (Backend)     |
+| Ferramentas       | Postman, Docker, VSCode, GitHub         |
+
+**Exemplo de fluxo de interação:**
+```mermaid
+flowchart LR
+    User[Usuário] --> Frontend
+    Frontend -->|HTTP Request| Backend
+    Backend -->|Query| BancoDeDados
+    BancoDeDados -->|Response| Backend
+    Backend -->|HTTP Response| Frontend
+    Frontend --> User
+```
 
 ---
 
 ## Hospedagem
 
-Descreva o ambiente de hospedagem escolhido para disponibilizar a aplicação (e.g., Heroku, GitHub Pages, Repl.it), bem como o processo de publicação e atualização da plataforma.
+**Frontend:** hospedado na [Vercel](https://vercel.com/)
+
+**Backend:** hospedado na [Microsoft Azure](https://azure.microsoft.com/)
+
+**Processo de Publicação:**
+1. Configurar repositórios no GitHub.
+2. Integrar Vercel com repositório do Frontend.
+3. Configurar App Service no Azure para o Backend.
+4. Definir pipelines de CI/CD.
+5. Configurar variáveis de ambiente necessárias.
+
+**Exemplo de variáveis de ambiente:**
+- `MONGO_DB_URI`
+- `JWT_SECRET`
+- `API_URL`
 
 ---
 
 ## Qualidade de Software
 
-A qualidade de software é um fator crítico no desenvolvimento e entrega de soluções robustas, manuteníveis e escaláveis. A norma ISO/IEC 25010 define oito características principais de qualidade e suas subcaracterísticas.
+A qualidade é baseada na norma **ISO/IEC 25010**, focando em:
 
-Sua equipe deve selecionar as subcaracterísticas mais relevantes para o projeto e justificar a escolha com base nos objetivos do sistema e nas necessidades dos usuários. Também é importante definir métricas que permitam avaliar essas qualidades ao longo do desenvolvimento.
+| Característica   | Subcaracterística       | Justificativa |
+|------------------|--------------------------|---------------|
+| Funcionalidade   | Acurácia Funcional        | Assegurar que as funções atendam os requisitos. |
+| Confiabilidade   | Tolerância a Falhas       | Garantir estabilidade em condições adversas. |
+| Usabilidade      | Acessibilidade            | Tornar a aplicação utilizável por todos os públicos. |
+| Eficiência       | Tempo de Resposta         | Minimizar atrasos na resposta ao usuário. |
+| Manutenibilidade | Modificabilidade          | Facilitar futuras correções e melhorias. |
+| Portabilidade    | Adaptabilidade            | Suporte a múltiplas plataformas e navegadores.|
+
+**Métricas propostas:**
+- **Taxa de Erro:** quantidade de erros por semana.
+- **Tempo Médio de Resposta:** máximo de 2 segundos para ações críticas.
+- **Cobertura de Testes Unitários:** mínimo de 80%.
+- **Índice de Acessibilidade (Lighthouse):** mínimo de 90%.
+
+---
+
+**Observação Final:**  
+Este documento deve ser mantido atualizado conforme a evolução da arquitetura e tecnologias da solução.
