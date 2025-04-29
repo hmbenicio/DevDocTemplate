@@ -98,6 +98,19 @@ O diagrama de casos de uso é uma ferramenta essencial após a elicitação de r
 
 A matriz de rastreabilidade ajuda a mapear a relação entre os requisitos e outros artefatos, como objetivos de negócio. Ela facilita o acompanhamento e a verificação do cumprimento dos requisitos.
 
+|       | MK   | RF-01 | RNF-01 | TC01 | TC02 | M100 | DC-01 | GV   | RF-02 |
+|-------|------|-------|--------|------|------|------|--------|------|--------|
+| MK    |      |       |        |      |      |      |        |      |        |
+| RF-01 |      |       |        |      |      |      |        |      |        |
+| RNF-01|      |       |        |      |      |      |        |      |        |
+| TC01  |      |       |        |      |      |      |        |      |        |
+| TC02  |      |       |        |      |      |      |        |      |        |
+| M100  |      |       |        |      |      |      |        |      |        |
+| DC-01 |      |       |        |      |      |      |        |      |        |
+| GV    |      |       |        |      |      |      |        |      |        |
+| RF-02 |      |       |        |      |      |      |        |      |        |
+
+
 ![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
 ---
