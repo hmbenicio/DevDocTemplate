@@ -75,9 +75,3 @@ A seguir estão as ferramentas adotadas para o desenvolvimento do projeto, que f
   - **Lucidchart**: Para elaboração de diagramas de fluxo e arquitetura do sistema.
 
 Essas ferramentas garantem uma colaboração eficiente entre as equipes e ajudam a manter o projeto organizado e alinhado com as práticas ágeis.
-
-> **Links Úteis**:
-> - [Slack](https://slack.com/)
-> - [GitHub](https://github.com/)
-> - [Figma](https://www.figma.com/)
-> - [Lucidchart](https://www.lucidchart.com/)
