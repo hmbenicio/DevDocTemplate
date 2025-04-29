@@ -52,7 +52,6 @@ flowchart LR
     Envio --> Juncao1
     Juncao1 --> Revisar[Revisar Pedido]
     Revisar --> Fim2((( )))
-
 ```
 
 ![Processo 1](img/02-bpmn-proc1.png)
