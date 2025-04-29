@@ -162,9 +162,6 @@ flowchart LR
     A6 --> A7
 ```
 
-
-![Diagrama de rede simplificado notação francesa](img/02-diagrama-rede-simplificado.png)
-
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
