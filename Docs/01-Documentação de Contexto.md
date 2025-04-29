@@ -49,10 +49,6 @@ Apresentação visual da distribuição das respostas coletadas via questionári
 | Satisfeito            | ███████████████████████████████              |
 | Muito Satisfeito      | ███████████████                              |
 
-
-
-![Gráfico de Distribuição](Adicionar imagem)
-
 ### Tabela de Análise de Requisitos
 
 | Requisito             | Prioridade | Fonte de Dados     | Observações                     |
