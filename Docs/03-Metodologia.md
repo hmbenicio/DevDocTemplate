@@ -1,6 +1,6 @@
 # Metodologia de Trabalho
 
-> **Pré-requisitos**: Consulte a <a href="02-Especificação do Projeto.md"> Documentação de Especificação</a> para obter informações adicionais sobre os requisitos e contexto do projeto.
+> **Pré-requisitos**: Consulte a <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a> para obter informações adicionais sobre os requisitos e contexto do projeto.
 
 Este documento descreve a metodologia adotada pelo time para desenvolver a solução proposta. Inclui detalhes sobre os ambientes de trabalho, o controle de versão, a gestão do código fonte, as práticas ágeis de organização do time e as ferramentas utilizadas durante o ciclo de vida do desenvolvimento.
 
