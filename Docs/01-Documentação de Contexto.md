@@ -41,11 +41,13 @@ Apresentação visual da distribuição das respostas coletadas via questionári
 > #### Nível de Satisfação
 > Este gráfico representa os níveis de satisfação com base em respostas coletadas:
 
-- **Muito Insatisfeito** | ██░░░░░░░░░░░░░░░░░░░░ (6%)
-- **Insatisfeito**       | ██████████░░░░░░░░░░░ (22%)
-- **Neutro**             | ██████████████░░░░░░░ (30%)
-- **Satisfeito**         | █████████████████████ (36%)
-- **Muito Satisfeito**   | █████░░░░░░░░░░░░░░░░ (12%)
+| Nível                 | Gráfico                                      |
+|-----------------------|----------------------------------------------|
+| Muito Insatisfeito    | ███                                          |
+| Insatisfeito          | ████████████                                 |
+| Neutro                | ████████████████████                         |
+| Satisfeito            | ███████████████████████████████              |
+| Muito Satisfeito      | ███████████████                              |
 
 
 
