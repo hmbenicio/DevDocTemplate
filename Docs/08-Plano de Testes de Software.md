@@ -30,12 +30,3 @@ Exemplo de estrutura para os casos de teste:
 | **Objetivo do Teste**     | Verificar se o usuário consegue realizar login corretamente.                                           |
 | **Passos**                | 1. Acessar o navegador. <br> 2. Informar o endereço do site: `https://adota-pet.herokuapp.com/src/index.html`. <br> 3. Clicar no botão "Entrar". <br> 4. Preencher o campo de e-mail. <br> 5. Preencher o campo da senha. <br> 6. Clicar em "Login". |
 | **Critério de Êxito**     | O login deve ser realizado com sucesso, permitindo o acesso à área restrita do usuário.                 |
-
----
-
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e Tipos de Testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Ferramentas de Test para JavaScript](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
