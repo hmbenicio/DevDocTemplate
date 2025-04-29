@@ -86,6 +86,5 @@ A coleta de dados é essencial para entender a experiência do usuário e identi
 
 ---
 
-### Conclusão
-
-O Plano de Testes de Usabilidade é um documento essencial para garantir que a aplicação seja intuitiva, eficiente e acessível para os usuários. Definir objetivos claros, selecionar participantes representativos e realizar testes com cenários realistas são passos fundamentais para coletar dados valiosos, que ajudarão a melhorar a experiência do usuário e otimizar a interface da aplicação.
+> ### Conclusão
+> O Plano de Testes de Usabilidade é um documento essencial para garantir que a aplicação seja intuitiva, eficiente e acessível para os usuários. Definir objetivos claros, selecionar participantes representativos e realizar testes com cenários realistas são passos fundamentais para coletar dados valiosos, que ajudarão a melhorar a experiência do usuário e otimizar a interface da aplicação.
