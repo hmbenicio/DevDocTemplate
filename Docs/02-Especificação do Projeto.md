@@ -162,6 +162,53 @@ flowchart LR
     A6 --> A7
 ```
 
+> #### Projeto de Programa – Planejamento e Cronograma
+
+Este projeto visa o desenvolvimento e entrega de um programa completo, desde a aquisição de equipamentos até a aceitação final do sistema pelos usuários. Abaixo está o cronograma detalhado com todas as etapas, durações e dependências.
+
+---
+
+#### Cronograma de Atividades
+
+| Nº | Nome da Tarefa           | Duração   | Início       | Término      | Predecessores |
+|----|--------------------------|-----------|--------------|--------------|----------------|
+| 1  | **Projeto de Programa**  | 144 dias  | Sáb 01/03/03 | Ter 22/07/03 | —              |
+| 2  | Entregar equipamentos    | 1 dia     | Sáb 01/03/03 | Sáb 01/03/03 | —              |
+| 3  | Testar equipamentos      | 24 dias   | Dom 02/03/03 | Ter 25/03/03 | 2              |
+| 4  | Instalar equipamentos    | 60 dias   | Qua 26/03/03 | Sáb 24/05/03 | 3              |
+| 5  | Escrever programas       | 88 dias   | Dom 02/03/03 | Qua 28/05/03 | 2              |
+| 6  | Testar e depurar         | 30 dias   | Qui 29/05/03 | Sex 27/06/03 | 5              |
+| 7  | Treinar usuários         | 10 dias   | Sáb 28/06/03 | Seg 07/07/03 | 6, 4           |
+| 8  | Aceitação                | 15 dias   | Ter 08/07/03 | Ter 22/07/03 | 7              |
+
+---
+
+> #### Dependências entre Tarefas
+
+- **Tarefa 3** depende da conclusão da tarefa 2.
+- **Tarefa 4** depende da tarefa 3.
+- **Tarefa 5** também depende da tarefa 2.
+- **Tarefa 6** só inicia após a tarefa 5.
+- **Tarefa 7** depende das tarefas 4 e 6.
+- **Tarefa 8** depende da tarefa 7.
+
+---
+
+> #### Linha do Tempo Simplificada
+
+```plaintext
+Meses →     Fev   Mar    Abr    Mai    Jun    Jul
+            |-----|------|------|------|------|-----|
+Projeto     [############## Projeto de Programa ###############]
+Equipamentos       [Entregar equipamentos]
+Teste Equip.        [ Testar equipamentos     ]
+Instalação           [     Instalar equipamentos          ]
+Programação         [       Escrever programas           ]
+Testes                                     [ Testar e depurar   ]
+Treinamento                                        [ Treinar usuários ]
+Aceitação                                                  [ Aceitação  ]
+```
+
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
