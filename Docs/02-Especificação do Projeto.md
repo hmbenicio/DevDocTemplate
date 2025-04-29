@@ -128,6 +128,24 @@ Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades
 
 Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferramentas de controle de tarefas são fundamentais para garantir o bom andamento do trabalho em equipe.
 
+# Simple Project Timeline - 2017
+
+| Team Name       | Activity                             | Start Date   | End Date     | Notes                          |
+|----------------|---------------------------------------|--------------|--------------|--------------------------------|
+| **Marketing Team** | Set Client Expectations               | 07-Aug-2017  | 11-Aug-2017  |                                |
+|                | Formalize Approach                    | 14-Aug-2017  | 25-Aug-2017  |                                |
+|                | Set up a Work Plan                    | 21-Aug-2017  | 01-Sep-2017  |                                |
+|                | Contractual: Receive Feedback         | 04-Sep-2017  | 08-Sep-2017  |                                |
+|                | **MS: Send work plan**                | 11-Sep-2017  | 15-Sep-2017  | Milestone (MS)                 |
+| **Interface Group** | Agree on a Plan                       | 14-Aug-2017  | 18-Aug-2017  |                                |
+|                | Agree on Approach                     | 21-Aug-2017  | 25-Aug-2017  |                                |
+|                | Configure GUI                         | 28-Aug-2017  | 08-Sep-2017  |                                |
+|                | Contractual: Receive Feedback         | 11-Sep-2017  | 15-Sep-2017  |                                |
+| **QM Team**     | Testing Values #1                     | 04-Sep-2017  | 29-Sep-2017  |                                |
+|                | Contractual: Receive Feedback         | 02-Oct-2017  | 06-Oct-2017  |                                |
+|                | **MS: Send testing report plan**      | 09-Oct-2017  | 13-Oct-2017  | Milestone (MS)                 |
+
+
 ![Simple Project Timeline](img/02-project-timeline.png)
 
 ## Gestão de Orçamento
