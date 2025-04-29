@@ -70,9 +70,3 @@ O vídeo a seguir apresenta uma demonstração prática da solução, mostrando 
 ## 5. Conclusão
 
 O projeto foi concluído com sucesso, atendendo aos objetivos e superando desafios importantes. A solução desenvolvida oferece um alto valor para os usuários finais e está pronta para ser utilizada de forma eficaz.
-
-> **Links Úteis**:
-> - [Documentação do Projeto](URL da documentação)
-> - [GitHub do Projeto](URL do GitHub)
-> - [Vídeo de Introdução à Solução](URL do vídeo)
-
