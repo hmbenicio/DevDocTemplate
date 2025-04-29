@@ -117,7 +117,7 @@ src/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Liste aqui todas as tecnologias adotadas:
 
