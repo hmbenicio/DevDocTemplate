@@ -149,11 +149,11 @@ Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades
 **Exemplo:**
 > #### Diagrama de Rede de Atividades
 > - Este diagrama representa a sequência de atividades para a entrega, instalação e aceitação de equipamentos e software.
-> #### Fluxo de Atividades
+> #### Fluxo de Atividades:
 
 ```mermaid
 flowchart LR
-    A1[1<br>Entregar equipamentos.] --> A2[24<br>Testar equipamentos.]
+    A1[<br>Atividade 1 - 1<br>Entregar equipamentos.] --> A2[24<br>Testar equipamentos.]
     A1 --> A4[88<br>Escrever programas.]
     A2 --> A3[60<br>Instalar equipamentos.]
     A4 --> A5[30<br>Testar e depurar.]
