@@ -7,6 +7,7 @@ Este documento descreve a estrutura da solução, abordando os principais compon
 
 ![Arquitetura da Solução](img/02-mob-arch.png)
 
+```mermaid
 erDiagram
     CLIENTE {
         int Id PK
@@ -39,7 +40,7 @@ erDiagram
     API ||--|| GATEWAY_PAGAMENTO : conecta
     BACKEND ||--|| BANCO_DE_DADOS : armazena
     BACKEND ||--|| SERVIDOR_WEB : integra
-
+```
 
 ---
 
