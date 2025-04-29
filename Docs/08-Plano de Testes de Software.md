@@ -1,7 +1,10 @@
 # Plano de Testes de Software
 
+> **Pré-requisitos:**  
+> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="04-Projeto de Interface.md"> Projeto de Interface</a>.
+
 > **Pré-requisitos:**
-> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="04-Projeto de Interface.md"> Projeto de Interface</a>
+> Consulte os documentos relacionados antes de prosseguir: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="04-Projeto de Interface.md"> Projeto de Interface</a>.
 
 Este documento apresenta os cenários de testes que serão utilizados na validação da aplicação. O objetivo é demonstrar como os requisitos estão sendo atendidos por meio dos testes realizados.
 
