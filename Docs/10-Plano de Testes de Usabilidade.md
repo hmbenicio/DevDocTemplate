@@ -38,7 +38,9 @@ Os cenários de teste são tarefas que os usuários devem realizar durante o tes
 #### **Cenário 1**: Pesquisa, adição ao carrinho e finalização da compra
 
 - **Objetivo**: Avaliar a facilidade e eficiência do usuário em pesquisar, adicionar um produto ao carrinho e finalizar a compra sem dificuldades.
+
 - **Contexto**: O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.
+
 - **Tarefa(s)**: 
     1. Acessar o site e localizar a barra de pesquisa.
     2. Pesquisar por "notebook" e usar os filtros (ex.: marca, preço, processador).
@@ -46,6 +48,7 @@ Os cenários de teste são tarefas que os usuários devem realizar durante o tes
     4. Adicionar o produto ao carrinho.
     5. Finalizar a compra, preenchendo os dados de pagamento e entrega.
     6. Confirmar a transação e verificar a tela de pedido concluído.
+ 
 - **Critério(s) de Sucesso**:
     - O usuário consegue encontrar e filtrar os produtos sem dificuldades.
     - O produto é adicionado ao carrinho corretamente.
@@ -76,17 +79,6 @@ A coleta de dados é essencial para entender a experiência do usuário e identi
 ### Considerações Importantes:
 - **Privacidade**: Em conformidade com a LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível que possa identificar o participante será coletado ou apresentado publicamente.
 - **Observação Direta**: Além de coletar dados quantitativos e qualitativos, o comportamento dos participantes será observado diretamente durante a execução das tarefas.
-
----
-
-## 5. Links Úteis
-
-Aqui estão alguns recursos que podem ajudar na construção e execução do Plano de Testes de Usabilidade:
-
-- [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-- [Teste de Usabilidade: Tudo o que você precisa saber! | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-- [Planejando Testes de Usabilidade: O Que (e o que Não) Fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-- [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
 
 ---
 
