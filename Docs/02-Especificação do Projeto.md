@@ -153,12 +153,12 @@ Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades
 
 ```mermaid
 flowchart LR
-    A1[<br>Atividade 1 (01)<br>Entregar equipamentos.] --> A2[<br>Atividade 2 (24)<br>Testar equipamentos.]
-    A1 --> A4[<br>Atividade 4 (88)<br>Escrever programas.]
-    A2 --> A3[<br>Atividade 3 (60)<br>Instalar equipamentos.]
-    A4 --> A5[<br>Atividade 5 (30)<br>Testar e depurar.]
-    A5 --> A6[<br>Atividade 6 (10)<br>Treinar usuários.]
-    A3 --> A7[<br>Atividade 7 (15)<br>Aceitação]
+    A1[Atividade 1 (01)\\nEntregar equipamentos.] --> A2[Atividade 2 (24)\\nTestar equipamentos.]
+    A1 --> A4[Atividade 4 (88)\\nEscrever programas.]
+    A2 --> A3[Atividade 3 (60)\\nInstalar equipamentos.]
+    A4 --> A5[Atividade 5 (30)\\nTestar e depurar.]
+    A5 --> A6[Atividade 6 (10)\\nTreinar usuários.]
+    A3 --> A7[Atividade 7 (15)\\nAceitação]
     A6 --> A7
 ```
 
