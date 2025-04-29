@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-> **Pré-requisitos**:
+> **Pré-requisitos:**
 > Antes de iniciar, verifique a seguinte documentação: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="04-Metodologia.md"> Metodologia</a>, <a href="03-Projeto de Interface.md"> Projeto de Interface</a>, <a href="05-Arquitetura da Solução.md"> Arquitetura da Solução</a>.
 
 ## Descrição
