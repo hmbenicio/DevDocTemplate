@@ -1,4 +1,4 @@
-# Metodologia de Trabalho
+# Metodologia
 
 > **Pré-requisitos**: Consulte a <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a> para obter informações adicionais sobre os requisitos e contexto do projeto.
 
