@@ -128,7 +128,7 @@ Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades
 
 Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferramentas de controle de tarefas são fundamentais para garantir o bom andamento do trabalho em equipe.
 
-> - #### Cronograma de projeto simples - 2025
+> - #### CRONOGRAMA DE PROJETO SIMPLES - 2025
 
 | Nome da Equipe       | Atividade                             | Data de Início   | Data de Término | Observações                      |
 |----------------------|---------------------------------------|------------------|-----------------|----------------------------------|
