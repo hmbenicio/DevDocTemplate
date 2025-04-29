@@ -55,7 +55,7 @@ A definição clara dos perfis de usuários é crucial para orientar o design e 
 
 ## Perfis de Usuários
 
-### Usuário Iniciante
+### 1. Usuário Iniciante
 
 **Descrição**: Pouca ou nenhuma familiaridade com a tecnologia.
 
@@ -65,7 +65,7 @@ A definição clara dos perfis de usuários é crucial para orientar o design e 
 
 **Objetivo**: Realizar tarefas básicas com facilidade.
 
-### Usuário Intermediário
+### 2. Usuário Intermediário
 
 **Descrição**: Alguma experiência prévia, mas não domínio completo.
 
@@ -75,7 +75,7 @@ A definição clara dos perfis de usuários é crucial para orientar o design e 
 
 **Objetivo**: Agilizar processos e utilizar funcionalidades mais elaboradas.
 
-### Usuário Avançado
+### 3. Usuário Avançado
 
 **Descrição**: Usuários experientes com capacidade de customização e otimização do sistema.
 
