@@ -55,12 +55,12 @@ flowchart LR
     Cotacao --> Aprovar[Aprovar Pedido]
     Aprovar -->|Aprovado| Decisao{Aprovado?}
     Decisao -->|Não| Fim1((( )))
-    Decisao -->|Sim| Paralelo1[|||]
-    Paralelo1 --> Pedido[Manejo de Pedido]
-    Paralelo1 --> Envio[Manejo de Envio]
-    Pedido --> Juncao1[|||]
-    Envio --> Juncao1
-    Juncao1 --> Revisar[Revisar Pedido]
+    Decisao -->|Sim| ParaleloInicio[Início Paralelo]
+    ParaleloInicio --> Pedido[Manejo de Pedido]
+    ParaleloInicio --> Envio[Manejo de Envio]
+    Pedido --> ParaleloFim[Fim Paralelo]
+    Envio --> ParaleloFim
+    ParaleloFim --> Revisar[Revisar Pedido]
     Revisar --> Fim2((( )))
 ```
 
