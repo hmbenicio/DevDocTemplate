@@ -18,6 +18,8 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 
 ## Diagrama ilustrativo (exemplo):
 
+![Exemplo de Estrutura de Layout](img/EstruturaLayout.png)
+
 ```plaintext
 +--------------------------------------------------------+
 |                        Cabeçalho (Header)              |
@@ -47,5 +49,3 @@ O layout padrão será aplicado de forma consistente em todas as páginas da apl
 | | Informações Institucionais | Links Adicionais      | |
 | +----------------------------------------------------+ |
 +--------------------------------------------------------+
-
-
