@@ -104,7 +104,7 @@ Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional f
 
 ---
 **Exemplo:**
-> **Coleção: `produtos`**
+> **Coleção: `usuarios`**
 
 ```json
 {
@@ -115,7 +115,7 @@ Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional f
 ```
 
 **Exemplo:**
-> **Coleção: `usuarios`**
+> **Coleção: `produtos`**
 
 ```json
 {
