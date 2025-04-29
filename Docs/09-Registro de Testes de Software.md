@@ -1,11 +1,7 @@
 # Registro de Testes de Software
 
 > **Pré-requisitos:**  
-> Consulte os documentos relacionados antes de prosseguir: <a href="04-Projeto de Interface.md"> Projeto de Interface</a>, <a href="08-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
-<span style="color:red">**Pré-requisitos:**</span> 
-- [Projeto de Interface](03-Projeto de Interface.md)
-- [Plano de Testes de Software](08-Plano de Testes de Software.md)
+> Consulte os documentos relacionados antes de prosseguir: <a href="04-Projeto de Interface.md"> Projeto de Interface</a>, <a href="08-Plano de Testes de Software.md"> Plano de Testes de Software</a>.
 
 Este documento tem como objetivo registrar as evidências dos testes realizados, conforme os casos de teste definidos no Plano de Testes de Software. Cada caso de teste deve ser documentado com capturas de tela e vídeos de tipo *screencast* que comprovem o cumprimento dos critérios de êxito (ou falhas) associados a cada funcionalidade.
 
@@ -67,9 +63,6 @@ Além da correção de falhas, também foram identificadas oportunidades de melh
 #### Exemplos de Melhoria:
 - **Otimização de desempenho**: Melhorar o tempo de resposta da aplicação durante o processo de login, que atualmente apresenta um atraso perceptível.
 - **Acessibilidade**: Incluir descrições de texto alternativas para todos os campos de formulário, garantindo a acessibilidade para usuários com deficiência visual.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para JavaScript](https://geekflare.com/javascript-unit-testing/)
 
 ---
 
