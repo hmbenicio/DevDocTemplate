@@ -99,7 +99,7 @@ A definição clara dos perfis de usuários é crucial para orientar o design e 
 
 A seguir, apresenta-se um diagrama ilustrativo dos perfis de usuários, suas necessidades e objetivos de uso do sistema.
 
-![Diagrama de Personas](Adicionar imagem)
+![Diagrama de Personas](Docs/img/DiagramadePersonas.png)
 
 ## Mapa de Stakeholders
 
