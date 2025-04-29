@@ -146,9 +146,9 @@ O gerenciamento de projeto, segundo o PMBoK v6, envolve dez áreas essenciais: I
 
 Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades e a estimar prazos de conclusão. Essas ferramentas são essenciais para o controle eficiente do cronograma.
 
-> **Exemplo:**
-> ### Diagrama de Rede de Atividades
-> Este diagrama representa a sequência de atividades para a entrega, instalação e aceitação de equipamentos e software.
+**Exemplo:**
+> #### Diagrama de Rede de Atividades
+> - Este diagrama representa a sequência de atividades para a entrega, instalação e aceitação de equipamentos e software.
 > #### Fluxo de Atividades
 
 ```mermaid
