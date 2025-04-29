@@ -39,6 +39,22 @@ Apresente sua proposta de solução, destacando os limites e as conexões com as
 
 Apresente o nome do processo e as oportunidades de melhoria identificadas. Em seguida, insira o modelo do processo, utilizando o padrão BPMN.
 
+```mermaid
+flowchart LR
+    Inicio(( )) --> Cotacao[Manejo de Cotação]
+    Cotacao --> Aprovar[Aprovar Pedido]
+    Aprovar -->|Aprovado| Decisao{Aprovado?}
+    Decisao -->|Não| Fim1((( )))
+    Decisao -->|Sim| Paralelo1[|||]
+    Paralelo1 --> Pedido[Manejo de Pedido]
+    Paralelo1 --> Envio[Manejo de Envio]
+    Pedido --> Juncao1[|||]
+    Envio --> Juncao1
+    Juncao1 --> Revisar[Revisar Pedido]
+    Revisar --> Fim2((( )))
+
+```
+
 ![Processo 1](img/02-bpmn-proc1.png)
 
 ### Processo 2 – NOME DO PROCESSO
