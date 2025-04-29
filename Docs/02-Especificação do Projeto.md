@@ -110,9 +110,6 @@ A matriz de rastreabilidade ajuda a mapear a relação entre os requisitos e out
 | GV    |      |       |        |      |      |      |        |      |        |
 | RF-02 |      |       |        |      |      |      |        |      |        |
 
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
 ---
 
 # Gerenciamento de Projeto
