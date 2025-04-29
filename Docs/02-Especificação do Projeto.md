@@ -40,6 +40,17 @@ Apresente sua proposta de solução, destacando os limites e as conexões com as
 Apresente o nome do processo e as oportunidades de melhoria identificadas. Em seguida, insira o modelo do processo, utilizando o padrão BPMN.
 
 ```mermaid
+flowchart LR
+    User[Usuário] --> Frontend
+    Frontend -->|HTTP Request| Backend
+    Backend -->|Query| BancoDeDados
+    BancoDeDados -->|Response| Backend
+    Backend -->|HTTP Response| Frontend
+    Frontend --> User
+```
+
+```mermaid
+flowchart LR
     Inicio(( )) --> Cotacao[Manejo de Cotação]
     Cotacao --> Aprovar[Aprovar Pedido]
     Aprovar -->|Aprovado| Decisao{Aprovado?}
