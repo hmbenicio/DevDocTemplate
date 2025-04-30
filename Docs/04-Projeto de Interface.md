@@ -24,8 +24,6 @@ flowchart LR
     Acao5 --> Fim((( )))
 ```
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
 ## Wireframes
 
 Os wireframes são protótipos iniciais de design utilizados para estruturar a interface de usuário de uma aplicação ou site. Eles servem como um esboço para definir a disposição dos elementos da interface e como as páginas se relacionam. No contexto do projeto, os wireframes ajudam a visualizar a estrutura da interface sem a preocupação com o design visual final.
