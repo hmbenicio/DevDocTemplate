@@ -164,6 +164,9 @@ flowchart LR
     A3 --> A7["Atividade 7 (15) Aceitação"]
     A6 --> A7
 ```
+**Exemplo:**
+> #### Gráfico de Gantt:
+> Aqui está o gráfico de Gantt baseado nas atividades e suas dependências. Ele mostra a sequência e a duração de cada tarefa ao longo do tempo, começando em 1º de janeiro de 2025.
 
 ![Gráfico de Gantt](img/GraficoGantt.png)
 
