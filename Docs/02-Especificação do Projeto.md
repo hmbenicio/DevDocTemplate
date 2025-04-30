@@ -18,10 +18,10 @@ Enumere e detalhe as personas relacionadas ao seu projeto, utilizando os documen
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Gerenciar as contas de maneira eficiente|
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR`                  |
+| -------------------- | ---------------------------------- | ---------------------------------------- |
+| Usuário do sistema   | Registrar minhas tarefas           | Não esquecer de fazê-las                 |
+| Administrador        | Alterar permissões                 | Gerenciar as contas de maneira eficiente |
 
 - As histórias de usuários ajudam a capturar os requisitos funcionais e não funcionais de forma clara. Se possível, agrupe as histórias por contexto para facilitar consultas futuras.
 
@@ -79,11 +79,11 @@ Defina os principais indicadores de desempenho e estabeleça metas para o projet
 
 Modelo sugerido:
 
-| Indicador                    | Objetivos                                                              | Descrição                                                    | Cálculo     | Fonte dados           | Perspectiva                   |
-|-----------------------------|------------------------------------------------------------------------|--------------------------------------------------------------|-------------|------------------------|-------------------------------|
-| Percentual reclamações      | Avaliar quantitativamente as reclamações                              | Percentual de reclamações em relação ao total atendimento    |             | Tabela reclamações     | Aprendizado e Crescimento     |
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana                    | *100        | Tabela solicitações    | Processos internos            |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues          | Mede % de material entregue dentro do mês                    |             | Tabela Pedidos         | Clientes                      |
+| Indicador                   | Objetivos                                                             | Descrição                                                 | Cálculo | Fonte dados         | Perspectiva               |
+| --------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- | ------- | ------------------- | ------------------------- |
+| Percentual reclamações      | Avaliar quantitativamente as reclamações                              | Percentual de reclamações em relação ao total atendimento |         | Tabela reclamações  | Aprendizado e Crescimento |
+| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana                 | \*100   | Tabela solicitações | Processos internos        |
+| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues          | Mede % de material entregue dentro do mês                 |         | Tabela Pedidos      | Clientes                  |
 
 ## Requisitos
 
@@ -91,17 +91,17 @@ A seguir, os requisitos funcionais e não funcionais detalham o escopo do projet
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|-----------|-----------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA      | Nome do Desenvolvedor      | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA     | Nome do Desenvolvedor      |
+| ID     | Descrição do Requisito                  | Prioridade | Responsável           |
+| ------ | --------------------------------------- | ---------- | --------------------- |
+| RF-001 | Permitir que o usuário cadastre tarefas | ALTA       | Nome do Desenvolvedor |
+| RF-002 | Emitir um relatório de tarefas no mês   | MÉDIA      | Nome do Desenvolvedor |
 
 ### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para dispositivos móveis | MÉDIA | 
-|RNF-002| O sistema deve processar requisições do usuário em no máximo 3 segundos | BAIXA |
+| ID      | Descrição do Requisito                                                  | Prioridade |
+| ------- | ----------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser responsivo para dispositivos móveis                  | MÉDIA      |
+| RNF-002 | O sistema deve processar requisições do usuário em no máximo 3 segundos | BAIXA      |
 
 Classifique os requisitos como funcionais (RF) ou não funcionais (RNF), e lembre-se de garantir que todas as histórias de usuário sejam cobertas. Os requisitos funcionais tratam de funcionalidades da aplicação, enquanto os não funcionais dizem respeito a aspectos técnicos, como desempenho ou usabilidade.
 
@@ -109,10 +109,10 @@ Classifique os requisitos como funcionais (RF) ou não funcionais (RNF), e lembr
 
 O projeto tem as seguintes restrições:
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID  | Restrição                                             |
+| --- | ----------------------------------------------------- |
+| 01  | O projeto deverá ser entregue até o final do semestre |
+| 02  | Não pode ser desenvolvido um módulo de backend        |
 
 Detalhe as restrições que limitam sua solução. As restrições muitas vezes determinam o que pode ou não ser feito durante o desenvolvimento.
 
@@ -124,17 +124,17 @@ O diagrama de casos de uso é uma ferramenta essencial após a elicitação de r
 
 A matriz de rastreabilidade ajuda a mapear a relação entre os requisitos e outros artefatos, como objetivos de negócio. Ela facilita o acompanhamento e a verificação do cumprimento dos requisitos.
 
-|       | MK   | RF-01 | RNF-01 | TC01 | TC02 | M100 | DC-01 | GV   | RF-02 |
-|-------|------|-------|--------|------|------|------|--------|------|--------|
-| MK    |      |       |        |      |      |      |        |      |        |
-| RF-01 |      |       |        |      |      |      |        |      |        |
-| RNF-01|      |       |        |      |      |      |        |      |        |
-| TC01  |      |       |        |      |      |      |        |      |        |
-| TC02  |      |       |        |      |      |      |        |      |        |
-| M100  |      |       |        |      |      |      |        |      |        |
-| DC-01 |      |       |        |      |      |      |        |      |        |
-| GV    |      |       |        |      |      |      |        |      |        |
-| RF-02 |      |       |        |      |      |      |        |      |        |
+|        | MK  | RF-01 | RNF-01 | TC01 | TC02 | M100 | DC-01 | GV  | RF-02 |
+| ------ | --- | ----- | ------ | ---- | ---- | ---- | ----- | --- | ----- |
+| MK     |     |       |        |      |      |      |       |     |       |
+| RF-01  |     |       |        |      |      |      |       |     |       |
+| RNF-01 |     |       |        |      |      |      |       |     |       |
+| TC01   |     |       |        |      |      |      |       |     |       |
+| TC02   |     |       |        |      |      |      |       |     |       |
+| M100   |     |       |        |      |      |      |       |     |       |
+| DC-01  |     |       |        |      |      |      |       |     |       |
+| GV     |     |       |        |      |      |      |       |     |       |
+| RF-02  |     |       |        |      |      |      |       |     |       |
 
 ---
 
@@ -147,8 +147,11 @@ O gerenciamento de projeto, segundo o PMBoK v6, envolve dez áreas essenciais: I
 Ferramentas como diagramas e gráficos de Gantt ajudam a organizar as atividades e a estimar prazos de conclusão. Essas ferramentas são essenciais para o controle eficiente do cronograma.
 
 **Exemplo:**
+
 > #### Diagrama de Rede de Atividades
+>
 > - Este diagrama representa a sequência de atividades para a entrega, instalação e aceitação de equipamentos e software.
+>
 > #### Fluxo de Atividades:
 
 ```mermaid
@@ -162,7 +165,7 @@ flowchart LR
     A6 --> A7
 ```
 
-![Gráfico de Gantt](img/Grafico-Gantt.png)
+![Gráfico de Gantt](img/GraficoGantt.png)
 
 ## Gerenciamento de Equipe
 
@@ -170,31 +173,31 @@ Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferrame
 
 > - #### CRONOGRAMA DE PROJETO SIMPLES - 2025
 
-| Nome da Equipe       | Atividade                             | Data de Início   | Data de Término | Observações                      |
-|----------------------|---------------------------------------|------------------|-----------------|----------------------------------|
-| **Equipe de Marketing** | Definir Expectativas do Cliente       | 07-Ago-2025      | 11-Ago-2025     |                                  |
-|                      | Formalizar Abordagem                  | 14-Ago-2025      | 25-Ago-2025     |                                  |
-|                      | Elaborar um Plano de Trabalho         | 21-Ago-2025      | 01-Set-2025     |                                  |
-|                      | Contratual: Receber Feedback          | 04-Set-2025      | 08-Set-2025     |                                  |
-|                      | **MS: Enviar plano de trabalho**      | 11-Set-2025      | 15-Set-2025     | Marco (MS)                       |
-| **Grupo de Interface** | Concordar com um Plano                | 14-Ago-2025      | 18-Ago-2025     |                                  |
-|                      | Concordar com a Abordagem             | 21-Ago-2025      | 25-Ago-2025     |                                  |
-|                      | Configurar GUI                        | 28-Ago-2025      | 08-Set-2025     |                                  |
-|                      | Contratual: Receber Feedback          | 11-Set-2025      | 15-Set-2025     |                                  |
-| **Equipe de QM**      | Testar Valores #1                     | 04-Set-2025      | 29-Set-2025     |                                  |
-|                      | Contratual: Receber Feedback          | 02-Out-2025      | 06-Out-2025     |                                  |
-|                      | **MS: Enviar plano de relatório de testes** | 09-Out-2025 | 13-Out-2025     | Marco (MS)                       |
+| Nome da Equipe          | Atividade                                   | Data de Início | Data de Término | Observações |
+| ----------------------- | ------------------------------------------- | -------------- | --------------- | ----------- |
+| **Equipe de Marketing** | Definir Expectativas do Cliente             | 07-Ago-2025    | 11-Ago-2025     |             |
+|                         | Formalizar Abordagem                        | 14-Ago-2025    | 25-Ago-2025     |             |
+|                         | Elaborar um Plano de Trabalho               | 21-Ago-2025    | 01-Set-2025     |             |
+|                         | Contratual: Receber Feedback                | 04-Set-2025    | 08-Set-2025     |             |
+|                         | **MS: Enviar plano de trabalho**            | 11-Set-2025    | 15-Set-2025     | Marco (MS)  |
+| **Grupo de Interface**  | Concordar com um Plano                      | 14-Ago-2025    | 18-Ago-2025     |             |
+|                         | Concordar com a Abordagem                   | 21-Ago-2025    | 25-Ago-2025     |             |
+|                         | Configurar GUI                              | 28-Ago-2025    | 08-Set-2025     |             |
+|                         | Contratual: Receber Feedback                | 11-Set-2025    | 15-Set-2025     |             |
+| **Equipe de QM**        | Testar Valores #1                           | 04-Set-2025    | 29-Set-2025     |             |
+|                         | Contratual: Receber Feedback                | 02-Out-2025    | 06-Out-2025     |             |
+|                         | **MS: Enviar plano de relatório de testes** | 09-Out-2025    | 13-Out-2025     | Marco (MS)  |
 
 ## Gestão de Orçamento
 
 O orçamento do projeto deve ser gerido com base nos dados do escopo e do tempo, além dos custos envolvidos em cada etapa.
 
 > - #### ORÇAMENTO
-| Recursos Necessários | Valor (R$)      |
-|----------------------|-----------------|
-| Recursos humanos     | 200.000,00      |
-| Hardware             | 25.000,00       |
-| Rede                 | 2.400,00        |
-| Software             | 24.000,00       |
-| Serviços             | 5.000,00        |
-| **TOTAL**            | **256.400,00**  |
+>   | Recursos Necessários | Valor (R$)     |
+>   | -------------------- | -------------- |
+>   | Recursos humanos     | 200.000,00     |
+>   | Hardware             | 25.000,00      |
+>   | Rede                 | 2.400,00       |
+>   | Software             | 24.000,00      |
+>   | Serviços             | 5.000,00       |
+>   | **TOTAL**            | **256.400,00** |
