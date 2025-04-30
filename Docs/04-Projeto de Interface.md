@@ -12,6 +12,18 @@ O diagrama de fluxo apresenta o caminho de interação do usuário com o sistema
 
 O diagrama é composto por "caixas" (boxes) que representam as principais funcionalidades do sistema, como menus, botões e acessos, e as interações que o usuário pode realizar, como editar, pesquisar, filtrar e configurar. As conexões entre essas caixas indicam o fluxo de navegação do usuário.
 
+```mermaid
+flowchart LR
+    Inicio(( )) --> Acao1[Ação 1]
+    Acao1 --> Acao2[Ação 2]
+    Acao2 --> Decisao{Decisão}
+    Decisao -->|Sim| Acao3[Ação 3]
+    Decisao -->|Não| Acao4[Ação 4]
+    Acao3 --> Acao5[Ação 5]
+    Acao4 --> Acao5
+    Acao5 --> Fim((( )))
+```
+
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
 ## Wireframes
