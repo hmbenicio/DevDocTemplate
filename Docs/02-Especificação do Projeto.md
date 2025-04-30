@@ -196,11 +196,11 @@ Uma gestão de equipe bem organizada melhora a produtividade do projeto. Ferrame
 O orçamento do projeto deve ser gerido com base nos dados do escopo e do tempo, além dos custos envolvidos em cada etapa.
 
 > - #### ORÇAMENTO
->   | Recursos Necessários | Valor (R$)     |
->   | -------------------- | -------------- |
->   | Recursos humanos     | 200.000,00     |
->   | Hardware             | 25.000,00      |
->   | Rede                 | 2.400,00       |
->   | Software             | 24.000,00      |
->   | Serviços             | 5.000,00       |
->   | **TOTAL**            | **256.400,00** |
+   | Recursos Necessários | Valor (R$)     |
+   | -------------------- | -------------- |
+   | Recursos humanos     | 200.000,00     |
+   | Hardware             | 25.000,00      |
+   | Rede                 | 2.400,00       |
+   | Software             | 24.000,00      |
+   | Serviços             | 5.000,00       |
+   | **TOTAL**            | **256.400,00** |
