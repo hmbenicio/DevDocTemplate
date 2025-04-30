@@ -30,4 +30,4 @@ Os wireframes são protótipos iniciais de design utilizados para estruturar a i
 
 Os wireframes são fundamentais para testar e iterar o layout da interface, garantindo que a navegação e as funcionalidades estejam claras e fáceis de usar antes de iniciar o design visual mais detalhado.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](img/Wireframes.png)
