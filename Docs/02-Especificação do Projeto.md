@@ -162,7 +162,7 @@ flowchart LR
     A6 --> A7
 ```
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Gráfico de Gantt](img/Grafico-Gantt.png)
 
 ## Gerenciamento de Equipe
 
