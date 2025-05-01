@@ -26,40 +26,40 @@ Este repositório tem como base a estrutura de documentação utilizada no curso
 
 # TÍTULO DO PROJETO
 
-`MERCADO`
+> `MERCADO`
 
-`CATEGORIAS`
+> `CATEGORIAS`
 
-`RECURSOS`
+> `RECURSOS`
 
 ## Descrição do Projeto
 
-Forneça uma breve descrição do projeto em desenvolvimento, limitando-se a um ou dois parágrafos.
+> Forneça uma breve descrição do projeto em desenvolvimento, limitando-se a um ou dois parágrafos.
 
 ## Equipe de desenvolvimento
 
-- Nome completo do desenvolvedor 1
-- Nome completo do desenvolvedor 2
-- Nome completo do desenvolvedor 3
-- Nome completo do desenvolvedor 4
-- Nome completo do desenvolvedor 5
+> - Nome completo do desenvolvedor 1
+> - Nome completo do desenvolvedor 2
+> - Nome completo do desenvolvedor 3
+> - Nome completo do desenvolvedor 4
+> - Nome completo do desenvolvedor 5
 
 ## Líder Técnico
 
-- Nome completo do líder técnico 1
+> - Nome completo do líder técnico 1
 
 ## Instruções de Utilização
 
-Quando a primeira versão do sistema estiver disponível, esta seção deverá ser atualizada com as instruções detalhadas de uso.
+> Quando a primeira versão do sistema estiver disponível, esta seção deverá ser atualizada com as instruções detalhadas de uso.
 
-Inclua orientações sobre:
+> Inclua orientações sobre:
 
-- Instalação de dependências necessárias;
-- Configuração do ambiente, se aplicável;
-- Passos para execução da aplicação (ex: comandos no terminal);
-- Qualquer outra informação relevante para o funcionamento correto do sistema.
+> - Instalação de dependências necessárias;
+> - Configuração do ambiente, se aplicável;
+> - Passos para execução da aplicação (ex: comandos no terminal);
+> - Qualquer outra informação relevante para o funcionamento correto do sistema.
 
-Certifique-se de que as instruções sejam claras e possam ser seguidas por qualquer usuário, mesmo com conhecimento técnico básico.
+> Certifique-se de que as instruções sejam claras e possam ser seguidas por qualquer usuário, mesmo com conhecimento técnico básico.
 
 # Documentação
 
