@@ -104,9 +104,9 @@ _Observação:_ Use `NOT NULL`, índices e constraints adicionais conforme neces
 
 ---
 
-## Modelo NoSQL (Banco de dados não relacional)
+## Modelo NoSQL (Banco de Dados Não Relacional)
 
-Este documento apresenta uma modelagem NoSQL equivalente ao esquema relacional fornecido, utilizando o estilo de documentos do MongoDB.
+Este documento descreve a modelagem de dados em um banco NoSQL, adotando a estrutura orientada a documentos do MongoDB, como alternativa funcional ao esquema relacional previamente definido.
 
 ---
 
