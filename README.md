@@ -63,7 +63,7 @@ Certifique-se de que as instruções sejam claras e possam ser seguidas por qual
 
 # Documentação
 
-<ol>
+> <ol>
 > <li><a href="Docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 > <li><a href="Docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 > <li><a href="Docs/03-Metodologia.md"> Metodologia</a></li>
