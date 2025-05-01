@@ -79,10 +79,10 @@ Certifique-se de que as instruções sejam claras e possam ser seguidas por qual
 > <li><a href="Docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Código
 
-> <li><a href="Src/README.md"> Código Fonte</a></li>
+<li><a href="Src/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
-> <li><a href="Apresentação/README.md"> Apresentação da solução</a></li>
+<li><a href="Apresentação/README.md"> Apresentação da solução</a></li>
