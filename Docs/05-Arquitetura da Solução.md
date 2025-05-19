@@ -189,6 +189,46 @@ src/
 
 ---
 
+# 📁 Estrutura de Pastas do Projeto
+
+## 🔙 Backend (C# - .NET Core)
+
+| Pasta                              | Descrição                                                                 |
+|-----------------------------------|---------------------------------------------------------------------------|
+| `/backend/Controllers/`           | Controladores que recebem e processam as requisições HTTP.               |
+| `/backend/Services/`              | Regras de negócio da aplicação.                                          |
+| `/backend/Models/`                | Modelos de dados (DTOs, entidades, view models).                         |
+| `/backend/Repositories/`          | Acesso a dados, abstrações e implementações para o banco de dados.       |
+| `/backend/Middlewares/`           | Middlewares personalizados (ex: tratamento de exceções, logs).           |
+| `/backend/Configurations/`        | Configurações como CORS, autenticação, Swagger, etc.                     |
+| `/backend/Data/`                  | Contexto do Entity Framework, migrations e seeds.                        |
+| `/backend/Helpers/`               | Funções auxiliares e utilitárias.                                        |
+| `/backend/Interfaces/`            | Interfaces de serviços, repositórios, etc.                               |
+| `/backend/Tests/`                 | Testes unitários e de integração (xUnit, NUnit, etc).                    |
+| `/backend/Docs/`                  | Documentação da API (ex: Swagger ou XML docs).                           |
+
+---
+
+## 🎨 Frontend (React)
+
+| Pasta                          | Descrição                                                                  |
+|-------------------------------|-----------------------------------------------------------------------------|
+| `/frontend/src/components/`   | Componentes reutilizáveis da interface (ex: Botões, Cards, etc).           |
+| `/frontend/src/pages/`        | Páginas principais (ex: Home, Login, Dashboard).                           |
+| `/frontend/src/services/`     | Comunicação com APIs (via Axios ou Fetch).                                 |
+| `/frontend/src/hooks/`        | Custom React Hooks.                                                        |
+| `/frontend/src/contexts/`     | Context API para estados globais (ex: autenticação, tema).                 |
+| `/frontend/src/assets/`       | Imagens, fontes, ícones, etc.                                              |
+| `/frontend/src/utils/`        | Funções auxiliares e utilitárias.                                          |
+| `/frontend/public/`           | Arquivos públicos acessados diretamente (ex: `index.html`, favicon).       |
+| `/frontend/tests/`            | Testes de componentes ou páginas.                                          |
+| `/frontend/styles/`           | Estilos globais (CSS/SCSS, temas, variáveis).                              |
+
+---
+
+- Essa estrutura é uma base recomendada e pode ser adaptada conforme o tamanho e escopo do seu projeto.
+
+
 ## Tecnologias Utilizadas
 
 Liste aqui todas as tecnologias adotadas:
