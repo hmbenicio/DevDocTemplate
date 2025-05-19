@@ -224,7 +224,7 @@ src/
 | `/frontend/tests/`            | Testes de componentes ou páginas.                                          |
 | `/frontend/styles/`           | Estilos globais (CSS/SCSS, temas, variáveis).                              |
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" /> Mobile (React Native)
+### <img align="left" alt="React" title="React" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" /> <img align="left" alt="React" title="React" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" /> Mobile (React Native)
 | Pasta                             | Descrição                                                                 |
 |----------------------------------|--------------------------------------------------------------------------|
 | `/mobile/src/components/`        | Componentes reutilizáveis (ex: Botões, Inputs, Modal).                   |
