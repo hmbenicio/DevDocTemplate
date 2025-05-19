@@ -191,21 +191,21 @@ src/
 
 ## <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Estrutura de Pastas do Projeto
 
-### <img align="left" alt="CSharp" title="C#" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /> Backend (C# - .NET Core)
+### <img align="left" alt="Node.js" title="Node.js" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" /> Backend (Node.js + Express)
 
-| Pasta                              | Descrição                                                                 |
-|-----------------------------------|---------------------------------------------------------------------------|
-| `/backend/Controllers/`           | Controladores que recebem e processam as requisições HTTP.               |
-| `/backend/Services/`              | Regras de negócio da aplicação.                                          |
-| `/backend/Models/`                | Modelos de dados (DTOs, entidades, view models).                         |
-| `/backend/Repositories/`          | Acesso a dados, abstrações e implementações para o banco de dados.       |
-| `/backend/Middlewares/`           | Middlewares personalizados (ex: tratamento de exceções, logs).           |
-| `/backend/Configurations/`        | Configurações como CORS, autenticação, Swagger, etc.                     |
-| `/backend/Data/`                  | Contexto do Entity Framework, migrations e seeds.                        |
-| `/backend/Helpers/`               | Funções auxiliares e utilitárias.                                        |
-| `/backend/Interfaces/`            | Interfaces de serviços, repositórios, etc.                               |
-| `/backend/Tests/`                 | Testes unitários e de integração (xUnit, NUnit, etc).                    |
-| `/backend/Docs/`                  | Documentação da API (ex: Swagger ou XML docs).                           |
+| Pasta                        | Descrição                                                                 |
+|-----------------------------|--------------------------------------------------------------------------|
+| `/backend/src/config/`      | Configurações globais (ex: DB, variáveis de ambiente).                  |
+| `/backend/src/controllers/` | Lógica dos endpoints (ex: autenticação, usuários, etc).                 |
+| `/backend/src/models/`      | Modelos de dados (ex: schemas usando Mongoose, Sequelize, etc).         |
+| `/backend/src/routes/`      | Definição das rotas da API.                                              |
+| `/backend/src/middlewares/` | Middlewares (ex: autenticação, logs, erros).                            |
+| `/backend/src/services/`    | Lógica de negócio e integração com APIs externas.                       |
+| `/backend/src/utils/`       | Funções auxiliares e helpers.                                           |
+| `/backend/src/validators/`  | Validação de dados (ex: com Joi, Yup).                                  |
+| `/backend/tests/`           | Testes unitários e de integração.                                       |
+| `/backend/index.js`         | Ponto de entrada da aplicação.                                          |
+
 
 ---
 
@@ -224,8 +224,22 @@ src/
 | `/frontend/tests/`            | Testes de componentes ou páginas.                                          |
 | `/frontend/styles/`           | Estilos globais (CSS/SCSS, temas, variáveis).                              |
 
----
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" /> Mobile (React Native)
+| Pasta                             | Descrição                                                                 |
+|----------------------------------|--------------------------------------------------------------------------|
+| `/mobile/src/components/`        | Componentes reutilizáveis (ex: Botões, Inputs, Modal).                   |
+| `/mobile/src/screens/`           | Telas principais da aplicação (ex: LoginScreen, HomeScreen).            |
+| `/mobile/src/services/`          | Requisições para a API (via Axios ou Fetch).                            |
+| `/mobile/src/hooks/`             | Custom Hooks do React Native.                                           |
+| `/mobile/src/contexts/`          | Gerenciamento de estados globais (ex: AuthContext).                     |
+| `/mobile/src/assets/`            | Imagens, fontes, ícones.                                                |
+| `/mobile/src/utils/`             | Funções utilitárias.                                                    |
+| `/mobile/src/navigation/`        | Configurações de navegação (ex: React Navigation).                      |
+| `/mobile/src/styles/`            | Estilos globais e temas.                                                |
+| `/mobile/__tests__/`             | Testes com Jest/React Native Testing Library.                           |
+| `/mobile/App.js`                 | Arquivo principal da aplicação.                                         |
 
+---
 > - Essa estrutura é uma base recomendada e pode ser adaptada conforme o tamanho e escopo do seu projeto.
 
 
