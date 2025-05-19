@@ -249,10 +249,11 @@ Liste aqui todas as tecnologias adotadas:
 
 | Categoria      | Tecnologia                           |
 | -------------- | ------------------------------------ |
-| Linguagem      | C# (.NET Core), JavaScript (Next.js) |
+| Linguagem      | Node.js (Express), JavaScript (React + Next.js) |
 | Banco de Dados | MongoDB                              |
-| Frontend       | Next.js                              |
-| Backend        | ASP.NET Core Web API                 |
+| Frontend       | React + Next.js                              |
+| Mobile       | React Native + Expo                              |
+| Backend        | Node.js + Express                 |
 | Hospedagem     | Vercel (Frontend) e Azure (Backend)  |
 | Ferramentas    | Postman, Docker, VSCode, GitHub      |
 
