@@ -189,9 +189,9 @@ src/
 
 ---
 
-## 📁 Estrutura de Pastas do Projeto
+## <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> Estrutura de Pastas do Projeto
 
-### 🔙 Backend (C# - .NET Core)
+### <img align="left" alt="CSharp" title="C#" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /> Backend (C# - .NET Core)
 
 | Pasta                              | Descrição                                                                 |
 |-----------------------------------|---------------------------------------------------------------------------|
