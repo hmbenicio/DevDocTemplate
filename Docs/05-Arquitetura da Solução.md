@@ -209,7 +209,7 @@ src/
 
 ---
 
-### 🎨 Frontend (React)
+### <img align="left" alt="React" title="React" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> Frontend (React)
 
 | Pasta                          | Descrição                                                                  |
 |-------------------------------|-----------------------------------------------------------------------------|
@@ -226,7 +226,7 @@ src/
 
 ---
 
-- Essa estrutura é uma base recomendada e pode ser adaptada conforme o tamanho e escopo do seu projeto.
+> - Essa estrutura é uma base recomendada e pode ser adaptada conforme o tamanho e escopo do seu projeto.
 
 
 ## Tecnologias Utilizadas
