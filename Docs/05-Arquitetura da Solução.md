@@ -204,7 +204,7 @@ src/
 | `/backend/src/utils/`       | Funções auxiliares e helpers.                                           |
 | `/backend/src/validators/`  | Validação de dados (ex: com Joi, Yup).                                  |
 | `/backend/tests/`           | Testes unitários e de integração.                                       |
-| `/backend/index.js`         | Ponto de entrada da aplicação.                                          |
+| `/backend/App.js`         | Ponto de entrada da aplicação.                                          |
 
 
 ---
